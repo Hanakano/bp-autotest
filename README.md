@@ -1,5 +1,7 @@
 # bp-autotest-ts
 
+Test harness to evaluate a Botpress bot on a sample corpus using LLM as a judge and OpenAI's batch API.
+
 To install dependencies:
 
 ```bash
