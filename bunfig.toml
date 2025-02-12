@@ -1,0 +1,8 @@
+[install]
+hoist = true
+
+[compile]
+tsconfig = "tsconfig.json"
+
+[alias]
+"@/" = "./src/"

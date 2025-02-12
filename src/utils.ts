@@ -1,7 +1,7 @@
 // src/utils.ts
 import fs from "fs";
-import { SYSTEM_PROMPT, CHAT_EVALUATION_SCHEMA } from "@/sys_prompt";
-import { BatchAPILine } from "@/schemas";
+import { SYSTEM_PROMPT } from "@/sys_prompt";
+import type { BatchAPILine } from "@/schemas";
 
 export function makeBatchAPILine(
 	user_question: string,
@@ -14,14 +14,16 @@ export function makeBatchAPILine(
 		method: "POST",
 		url: "/v1/chat/completions",
 		body: {
-			model: "o3-mini",
+			model: "o1-mini",
+			store: true,
 			messages: [
-				{ role: "system", content: SYSTEM_PROMPT },
-				{ role: "user", content: `user question: ${user_question}\n\nbot answer: ${bot_answer}` },
+				{ role: "user", content: `${SYSTEM_PROMPT}\n\nuser question: ${user_question}\n\nbot answer: ${bot_answer}` },
 			],
-			max_tokens: 500,
-			temperature: 0.2,
-			response_format: { type: "json_schema", json_schema: CHAT_EVALUATION_SCHEMA },
+			max_completion_tokens: 5000,
+			response_format: {
+				type: "json_object"
+			},
+			//			response_format: { type: "json_schema", json_schema: CHAT_EVALUATION_SCHEMA },
 			metadata: { conversation_id, question_id },
 		},
 	};

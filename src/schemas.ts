@@ -14,18 +14,18 @@ export const BatchAPILineSchema = z.object({
 	url: z.literal("/v1/chat/completions"),
 	body: z.object({
 		model: z.string(),
+		store: z.boolean().default(true),
 		messages: z.array(
 			z.object({
-				role: z.enum(["system", "user"]),
+				role: z.enum(["developer", "user"]),
 				content: z.string(),
 			})
 		),
-		max_tokens: z.number(),
-		temperature: z.number(),
+		max_completion_tokens: z.number(),
 		response_format: z.object({
-			type: z.literal("json_schema"),
-			json_schema: z.any(),
-		}),
+			type: z.string(),
+			json_schema: z.object({}).optional()
+		}).optional(),
 		metadata: z.object({
 			conversation_id: z.string(),
 			question_id: z.string(),
