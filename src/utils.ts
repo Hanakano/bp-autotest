@@ -14,15 +14,12 @@ export function makeBatchAPILine(
 		method: "POST",
 		url: "/v1/chat/completions",
 		body: {
-			model: "o1-mini",
+			model: "gpt-4o-mini",
 			store: true,
 			messages: [
 				{ role: "user", content: `${SYSTEM_PROMPT}\n\nuser question: ${user_question}\n\nbot answer: ${bot_answer}` },
 			],
 			max_completion_tokens: 5000,
-			response_format: {
-				type: "json_object"
-			},
 			//			response_format: { type: "json_schema", json_schema: CHAT_EVALUATION_SCHEMA },
 			metadata: { conversation_id, question_id },
 		},

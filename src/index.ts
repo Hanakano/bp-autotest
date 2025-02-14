@@ -35,8 +35,8 @@ async function retryWithBackoff<T>(
 		} catch (error) {
 			console.warn(`Attempt ${attempt} failed: ${error}`);
 		}
-		// Exponentially increasing backoff, approx 2.5s, 7.5s, 19s
-		await new Promise((res) => setTimeout(res, Math.pow(2.7, attempt) * 1000));
+		// Exponentially increasing backoff, 3s, 9s, 27s, total of 33 sec
+		await new Promise((res) => setTimeout(res, Math.pow(3, attempt) * 1000));
 	}
 	console.warn("Max retries reached. Returning undefined.");
 	return undefined;
@@ -85,6 +85,15 @@ async function sendMessageToBotpressBot(params: SendMessageParams): Promise<User
 	}
 }
 
+// Utility function to split array into chunks
+function chunk<T>(array: T[], size: number): T[][] {
+	const chunks: T[][] = [];
+	for (let i = 0; i < array.length; i += size) {
+		chunks.push(array.slice(i, i + size));
+	}
+	return chunks;
+}
+
 // Main execution
 export default async function main() {
 	console.log("Starting testing...");
@@ -92,12 +101,10 @@ export default async function main() {
 		baseURL: "https://chat.botpress.cloud",
 		headers: { accept: "application/json", "content-type": "application/json" },
 	});
-
 	const limiter = new Bottleneck({ minTime: 200, maxConcurrent: 3 });
 	const webhook_id = "42536745-17d0-4cd6-a6e2-450d8c18c2a9";
 	const sample_questions_filepath = "data/test_questions.jsonl";
-	const user_id = "test_user" + uuidv4();
-	console.debug("Using alias ", user_id)
+	const output_filepath = "data/batch_data.jsonl";
 
 	// Load sample questions
 	const sample_questions: SampleQuestionLine[] = fs
@@ -105,93 +112,101 @@ export default async function main() {
 		.split("\n")
 		.filter(Boolean)
 		.map((line) => JSON.parse(line));
-
 	console.debug("Found ", sample_questions.length, " sample questions");
-	console.debug(sample_questions[0])
-	// Create user
-	const resUser: AxiosResponse = await api_client.request(makeUser(webhook_id, user_id));
-	if (resUser.status !== 200) throw new Error(`Error getting user key: ${JSON.stringify(resUser.data)}`);
-	const user_key = resUser.data.key;
-	console.debug("Got user key: ", user_key);
-	console.debug("Sending messages to bot...");
-	// Send messages
-	const user_q_and_conv_ids = await Promise.all(
-		sample_questions.map(({ id, user_question }) =>
-			sendMessageToBotpressBot({
-				limiter,
-				api_client,
-				webhook_id,
-				user_key,
-				conversation_id: uuidv4(),
-				message: user_question,
-				question_id: id,
-			})
-		)
-	);
-	console.debug("All messages sent!");
-	console.log(user_q_and_conv_ids[0]);
 
-	// Retrieve all conversations (handles pagination)
-	const conversation_ids = await fetchAllConversations(api_client, webhook_id, user_key, limiter);
-	console.debug("Retrieved ", conversation_ids.length, " conversations");
-	console.debug(conversation_ids[0]);
+	// Process in batches of 20
+	const BATCH_SIZE = 20;
+	const batches = chunk(sample_questions, BATCH_SIZE);
+	console.debug(`Split into ${batches.length} batches of size ${BATCH_SIZE}`);
 
-	// Fetch bot responses with retry logic
-	console.debug("Fetching bot answers...");
-	const bot_responses = await Promise.all(
-		conversation_ids.map(async ({ id }: ListConversationReturnType) => {
-			const { user_question, bot_answer } = await retryWithBackoff(async (): Promise<{
-				user_question: string | undefined;
-				bot_answer: string | undefined;
-			} | undefined> => {
-				const transcriptResponse = await limiter.schedule(() =>
-					api_client.request(getChatMessages(webhook_id, user_key, id))
-				);
+	for (let batchIndex = 0; batchIndex < batches.length; batchIndex++) {
+		const batch = batches[batchIndex];
+		const user_id = `batch_user_${batchIndex}_` + uuidv4();
+		console.debug(`Processing batch ${batchIndex + 1}/${batches.length} with user ${user_id}`);
 
-				let user_question: string | undefined;
-				let bot_answer: string | undefined;
+		try {
+			// Create user for this batch
+			const resUser: AxiosResponse = await api_client.request(makeUser(webhook_id, user_id));
+			if (resUser.status !== 200) throw new Error(`Error getting user key: ${JSON.stringify(resUser.data)}`);
+			const user_key = resUser.data.key;
+			console.debug("Got user key: ", user_key);
 
-				if (transcriptResponse.status !== 200) {
-					throw new Error("Error retrieving messages:\n", transcriptResponse.data);
-				}
+			// Send messages for this batch
+			await Promise.all(
+				batch.map(({ id, user_question }) =>
+					sendMessageToBotpressBot({
+						limiter,
+						api_client,
+						webhook_id,
+						user_key,
+						conversation_id: uuidv4(),
+						message: user_question,
+						question_id: id,
+					})
+				)
+			);
+			console.debug(`Batch ${batchIndex + 1}: All messages sent!`);
 
-				const messages = transcriptResponse.data.messages;
-				user_question = messages.length > 1 ? messages[messages.length - 1].payload.text : undefined;
-				bot_answer = messages.length > 1 ? messages[messages.length - 2].payload.text : undefined;
+			// Retrieve conversations for this batch
+			const conversation_ids = await fetchAllConversations(api_client, webhook_id, user_key, limiter);
+			console.debug(`Retrieved ${conversation_ids.length} conversations for batch ${batchIndex + 1}`);
 
-				return bot_answer ? { user_question, bot_answer } : undefined;
-			}, 3) || { user_question: undefined, bot_answer: undefined };
-			return { id, user_question, bot_answer };
-		})
-	);
+			// Fetch bot responses for this batch
+			const bot_responses = await Promise.all(
+				conversation_ids.map(async ({ id }: ListConversationReturnType) => {
+					const { user_question, bot_answer } = await retryWithBackoff(async (): Promise<{
+						user_question: string | undefined;
+						bot_answer: string | undefined;
+					} | undefined> => {
+						const transcriptResponse = await limiter.schedule(() =>
+							api_client.request(getChatMessages(webhook_id, user_key, id))
+						);
+						let user_question: string | undefined;
+						let bot_answer: string | undefined;
+						if (transcriptResponse.status !== 200) {
+							throw new Error("Error retrieving messages:\n", transcriptResponse.data);
+						}
+						const messages = transcriptResponse.data.messages;
+						user_question = messages.length > 1 ? messages[messages.length - 1].payload.text : undefined;
+						bot_answer = messages.length > 1 ? messages[messages.length - 2].payload.text : undefined;
+						return bot_answer ? { user_question, bot_answer } : undefined;
+					}, 3) || { user_question: undefined, bot_answer: undefined };
+					return { id, user_question, bot_answer };
+				})
+			);
 
-	console.debug("Fetched ", bot_responses.length, " bot answers");
-	console.debug(bot_responses);
+			// Format and save this batch
+			const formatted_lines = bot_responses
+				.filter((entry): entry is {
+					id: string;
+					user_question: string;
+					bot_answer: string;
+				} =>
+					entry !== null &&
+					typeof entry.bot_answer === 'string' &&
+					typeof entry.user_question === 'string'
+				)
+				.map(({ id, user_question, bot_answer }) => {
+					return makeBatchAPILine(user_question, bot_answer, id, id);
+				})
+				.filter((line): line is NonNullable<typeof line> => line !== null);
 
-	// Format for OpenAI JSONL, filter out undefined bot answers
-	console.debug("pushing to openai-formatted jsonl");
-	const formatted_lines = bot_responses
-		.filter((entry): entry is {
-			id: string;
-			user_question: string;
-			bot_answer: string;
-		} =>
-			entry !== null &&
-			typeof entry.bot_answer === 'string' &&
-			typeof entry.user_question === 'string'
-		)
-		.map(({ id, user_question, bot_answer }) => {
-			/* console.log("Question is: ", user_question, "\n And the bot said: ", bot_answer, "\n"); */
-			return makeBatchAPILine(user_question, bot_answer, id, id);
-		})
-		.filter((line): line is NonNullable<typeof line> => line !== null);
+			// Append this batch's results to the output file
+			fs.appendFileSync(
+				output_filepath,
+				formatted_lines.map((line) => JSON.stringify(line)).join("\n") + "\n",
+				"utf8"
+			);
 
-	console.debug("Formatted ", formatted_lines.length, " lines");
-	fs.writeFileSync(
-		"data/batch_data.jsonl",
-		formatted_lines.map((line) => JSON.stringify(line)).join("\n") + "\n",
-		"utf8"
-	);
-	console.log("✅ JSONL file created!");
+			console.log(`✅ Batch ${batchIndex + 1}/${batches.length} processed and saved successfully`);
+
+		} catch (error) {
+			console.error(`❌ Error processing batch ${batchIndex + 1}:`, error);
+			// Continue with next batch instead of failing completely
+			continue;
+		}
+	}
+
+	console.log("✅ All batches processed!");
 }
 await main()
