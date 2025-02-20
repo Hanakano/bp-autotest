@@ -244,12 +244,51 @@
         ]
       }
     },
+    "weight_chart": [
+      {
+        "outer_steel_thickness": 0.4,
+        "inner_steel_thickness": 0.4,
+        "weights": [
+          {
+            "core_thickness_mm": 10,
+            "total_weight_kg_m2": 4.4
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 10,
+            "total_weight_kg_m2": 5.3
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.6,
+        "weights": [
+          {
+            "core_thickness_mm": 10,
+            "total_weight_kg_m2": 6.3
+          }
+        ]
+      }
+    ],
     "certificate_type": "EPD",
-    "manufacturing": {
+    "shipping": {
       "lead_time": 15,
       "port_of_shipping": "GENOA, LEGHORN",
       "shipping_time": 30,
-      "maximum_qty_per_40ft_container": null,
+      "shipping_container_capacity": [
+        {
+          "thickness_mm": null,
+          "length_mm": 11900,
+          "max_panels": 224,
+          "max_m2": 2665
+        }
+      ],
       "shipping_instructions": "MODEL THICKNESS mm LENGHT mm # PANELS MAX m2\nECOGREK 11900 224 2665"
     },
     "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films are available on request. The overlap of one and half trapezoidal wave, allows a better overall safety margin for the watertightness of the roof, especially in cases of moderate slope.",
@@ -259,7 +298,7 @@
     "review_date": "2025-02-05T16:27:34.408Z"
   },
   {
-    "product_name": "Globe Roof",
+    "product_name": "GlobeRoof",
     "description": "Insulated roofing panel",
     "images": [
       "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%2020250203100538680-M0Ky0VIHAZYKfA4L9wiCExJd8gknCK.png"
@@ -727,22 +766,2660 @@
         ]
       }
     },
+    "weight_chart": [
+      {
+        "outer_steel_thickness": 0.4,
+        "inner_steel_thickness": 0.4,
+        "weights": [
+          {
+            "core_thickness_mm": 30,
+            "total_weight_kg_m2": 7.8
+          },
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 8.2
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 8.6
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 9
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 9.8
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 10.6
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 11.3
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 12.1
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 12.5
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.4,
+        "weights": [
+          {
+            "core_thickness_mm": 30,
+            "total_weight_kg_m2": 8.8
+          },
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 9.2
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 9.6
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 10
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 10.7
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 11.5
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 12.3
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 13.1
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 13.4
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 30,
+            "total_weight_kg_m2": 9.7
+          },
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 10.1
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 10.5
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 10.9
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 11.7
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 12.5
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 13.3
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 14.1
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 14.2
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 30,
+            "total_weight_kg_m2": 10.6
+          },
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 11
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 11.4
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 11.8
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 12.5
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 13.3
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 14.1
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 14.9
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 15.2
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.6,
+        "weights": [
+          {
+            "core_thickness_mm": 30,
+            "total_weight_kg_m2": 11.5
+          },
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 11.9
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 12.3
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 12.7
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 13.5
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 14.3
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 15.1
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 15.9
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 16
+          }
+        ]
+      }
+    ],
     "certificate_type": "EPD",
-    "manufacturing": {
+    "shipping": {
       "lead_time": 15,
       "port_of_shipping": "GENOA",
       "shipping_time": 30,
-      "maximum_qty_per_40ft_container": null,
+      "shipping_container_capacity": [
+        {
+          "thickness_mm": 30,
+          "length_mm": 11900,
+          "max_panels": 100,
+          "max_m2": 1190
+        },
+        {
+          "thickness_mm": 40,
+          "length_mm": 11900,
+          "max_panels": 84,
+          "max_m2": 1000
+        },
+        {
+          "thickness_mm": 50,
+          "length_mm": 11900,
+          "max_panels": 72,
+          "max_m2": 857
+        },
+        {
+          "thickness_mm": 60,
+          "length_mm": 11900,
+          "max_panels": 62,
+          "max_m2": 738
+        },
+        {
+          "thickness_mm": 80,
+          "length_mm": 11900,
+          "max_panels": 50,
+          "max_m2": 595
+        },
+        {
+          "thickness_mm": 100,
+          "length_mm": 11900,
+          "max_panels": 42,
+          "max_m2": 500
+        },
+        {
+          "thickness_mm": 120,
+          "length_mm": 11900,
+          "max_panels": 36,
+          "max_m2": 428
+        },
+        {
+          "thickness_mm": 150,
+          "length_mm": 11900,
+          "max_panels": 28,
+          "max_m2": 333
+        },
+        {
+          "thickness_mm": 160,
+          "length_mm": 11900,
+          "max_panels": 24,
+          "max_m2": 286
+        },
+        {
+          "thickness_mm": 180,
+          "length_mm": 11900,
+          "max_panels": 24,
+          "max_m2": 286
+        },
+        {
+          "thickness_mm": 200,
+          "length_mm": 11900,
+          "max_panels": 20,
+          "max_m2": 238
+        }
+      ],
       "shipping_instructions": "MODEL THICKNESS mm LENGHT mm # PANELS MAX m2\nGLOBEROOF 30 11900 100 1190\nGLOBEROOF 40 11900 84 1000\nGLOBEROOF 50 11900 72 857\nGLOBEROOF 60 11900 62 738\nGLOBEROOF 80 11900 50 595\nGLOBEROOF 100 11900 42 500\nGLOBEROOF 120 11900 36 428\nGLOBEROOF 150 11900 28 333\nGLOBEROOF 160 11900 24 286\nGLOBEROOF 180 11900 24 286\nGLOBEROOF 200 11900 20 238"
     },
     "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films and non-toxic coatings for occasional contact with food are available on request.",
-    "sample_questions":[],
+    "sample_questions": [],
     "reviewed_by": "AI",
     "status": "Pending",
-    "review_date": "2025-02-09T16:14:15.823Z"
+    "review_date": "2025-02-18T13:58:12.867Z"
   },
   {
-    "product_name": "Globe Wall",
+    "product_name": "GlobeRoof Eco",
+    "description": "Insulated roofing and wall panel for agriculture and farming. ",
+    "images": [
+      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203101927-yq8amITFou6oDJaTX8s2jgGRgv46jj.png"
+    ],
+    "core_types": {
+      "pur": {
+        "available": true,
+        "fire_rating": "None"
+      },
+      "pir": {
+        "available": true,
+        "fire_rating": "B-s2,d0"
+      },
+      "rockwool": {
+        "available": false,
+        "fire_rating": ""
+      }
+    },
+    "joint_type": "Visible",
+    "panel_width_mm": 1000,
+    "thermals": [
+      {
+        "thickness_mm": 20,
+        "watts_per_m2_kelvin": 0.77,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 7.37
+      },
+      {
+        "thickness_mm": 30,
+        "watts_per_m2_kelvin": 0.73,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 7.78
+      },
+      {
+        "thickness_mm": 40,
+        "watts_per_m2_kelvin": 0.58,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 9.79
+      },
+      {
+        "thickness_mm": 50,
+        "watts_per_m2_kelvin": 0.44,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 12.9
+      },
+      {
+        "thickness_mm": 60,
+        "watts_per_m2_kelvin": 0.37,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 15.35
+      },
+      {
+        "thickness_mm": 80,
+        "watts_per_m2_kelvin": 0.26,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 21.84
+      },
+      {
+        "thickness_mm": 100,
+        "watts_per_m2_kelvin": 0.2,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 28.39
+      },
+      {
+        "thickness_mm": 120,
+        "watts_per_m2_kelvin": 0.17,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 33.4
+      }
+    ],
+    "sides": {
+      "external": {
+        "isFlat": false,
+        "isPerforated": false,
+        "materials": [
+          "Polystere",
+          "PVDF",
+          "PUR/PA",
+          "Plastisol",
+          "Galvanized Steel",
+          "Aluminum"
+        ],
+        "thicknesses_mm": [
+          0.4,
+          0.5,
+          0.6
+        ],
+        "ribs": {
+          "count": 5,
+          "rib_type": "High",
+          "height_mm": 40,
+          "spacing_mm": 250,
+          "top_width_mm": 25,
+          "bottom_width_mm": 40
+        },
+        "colors": {
+          "standard": [],
+          "special": []
+        },
+        "coating": [
+          "Polystere",
+          "PVDF",
+          "PUR/PA"
+        ]
+      },
+      "internal": {
+        "isFlat": true,
+        "isPerforated": false,
+        "materials": [
+          "bitumen felt membrane (KAPPA 3 е KAPPA 5)",
+          "aluminium thickness (KAPPA 3 AGRI e KAPPA 5 AGRI)",
+          "fiberglass"
+        ],
+        "thicknesses_mm": [],
+        "ribs": {
+          "count": null,
+          "rib_type": null,
+          "height_mm": null,
+          "spacing_mm": null,
+          "top_width_mm": null,
+          "bottom_width_mm": null
+        },
+        "colors": {
+          "standard": [],
+          "special": []
+        },
+        "coating": []
+      }
+    },
+    "load_bearing_chart": {
+      "single_bay": {
+        "configuration": "Standard Panel",
+        "supported": true,
+        "static_characteristics": [
+          {
+            "thickness_mm": 0.5,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 133,
+              "3": null,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 235,
+              "2.5": 74,
+              "3.5": null,
+              "4.5": null,
+              "5.5": null
+            }
+          },
+          {
+            "thickness_mm": 0.6,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 155,
+              "3": 49,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 280,
+              "2.5": 87,
+              "3.5": null,
+              "4.5": null,
+              "5.5": null
+            }
+          },
+          {
+            "thickness_mm": 0.8,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 208,
+              "3": 65,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 366,
+              "2.5": 113,
+              "3.5": null,
+              "4.5": null,
+              "5.5": null
+            }
+          },
+          {
+            "thickness_mm": 1,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 260,
+              "3": 82,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 455,
+              "2.5": 143,
+              "3.5": null,
+              "4.5": null,
+              "5.5": null
+            }
+          }
+        ]
+      },
+      "multiple_bay": {
+        "configuration": "Standard Panel",
+        "supported": true,
+        "static_characteristics": [
+          {
+            "thickness_mm": 0.5,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 166,
+              "3": 70,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 290,
+              "2.5": 107,
+              "3.5": null,
+              "4.5": null,
+              "5.5": null
+            }
+          },
+          {
+            "thickness_mm": 0.6,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 194,
+              "3": 84,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 344,
+              "2.5": 125,
+              "3.5": 52,
+              "4.5": null,
+              "5.5": null
+            }
+          },
+          {
+            "thickness_mm": 0.8,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 260,
+              "3": 110,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 457,
+              "2.5": 166,
+              "3.5": 69,
+              "4.5": null,
+              "5.5": null
+            }
+          },
+          {
+            "thickness_mm": 1,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 325,
+              "3": 137,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 570,
+              "2.5": 207,
+              "3.5": 87,
+              "4.5": null,
+              "5.5": null
+            }
+          }
+        ]
+      }
+    },
+    "weight_chart": [],
+    "certificate_type": "EPD",
+    "shipping": {
+      "lead_time": 15,
+      "port_of_shipping": "GENOA",
+      "shipping_time": 30,
+      "shipping_container_capacity": [
+        {
+          "thickness_mm": 30,
+          "length_mm": 11900,
+          "max_panels": 100,
+          "max_m2": 1190
+        },
+        {
+          "thickness_mm": 40,
+          "length_mm": 11900,
+          "max_panels": 84,
+          "max_m2": 1000
+        },
+        {
+          "thickness_mm": 50,
+          "length_mm": 11900,
+          "max_panels": 72,
+          "max_m2": 857
+        },
+        {
+          "thickness_mm": 60,
+          "length_mm": 11900,
+          "max_panels": 62,
+          "max_m2": 738
+        },
+        {
+          "thickness_mm": 80,
+          "length_mm": 11900,
+          "max_panels": 50,
+          "max_m2": 595
+        },
+        {
+          "thickness_mm": 100,
+          "length_mm": 11900,
+          "max_panels": 42,
+          "max_m2": 500
+        },
+        {
+          "thickness_mm": 120,
+          "length_mm": 11900,
+          "max_panels": 36,
+          "max_m2": 428
+        },
+        {
+          "thickness_mm": 150,
+          "length_mm": 11900,
+          "max_panels": 28,
+          "max_m2": 333
+        },
+        {
+          "thickness_mm": 160,
+          "length_mm": 11900,
+          "max_panels": 24,
+          "max_m2": 286
+        },
+        {
+          "thickness_mm": 180,
+          "length_mm": 11900,
+          "max_panels": 24,
+          "max_m2": 286
+        },
+        {
+          "thickness_mm": 200,
+          "length_mm": 11900,
+          "max_panels": 20,
+          "max_m2": 238
+        }
+      ],
+      "shipping_instructions": "MODEL THICKNESS mm LENGHT mm # PANELS MAX m2\nGLOBEROOF ECO 30 11900 100 1190\nGLOBEROOF ECO 40 11900 84 1000\nGLOBEROOF ECO 50 11900 72 857\nGLOBEROOF ECO 60 11900 62 738\nGLOBEROOF ECO 80 11900 50 595\nGLOBEROOF ECO100 11900 42 500\nGLOBEROOF ECO 120 11900 36 428\nGLOBEROOF ECO 150 11900 28 333\nGLOBEROOF ECO 160 11900 24 286\nGLOBEROOF ECO 180 11900 24 286\nGLOBEROOF ECO 200 11900 20 238"
+    },
+    "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films are available on request. Bitumen felt membrane isn't suitable for ceiling applications because it could be not uniform as tone colour and imperfect surface with aesthetic problems.",
+    "sample_questions": [],
+    "reviewed_by": "AI",
+    "status": "Pending",
+    "review_date": "2025-02-17T12:12:09.867Z"
+  },
+  {
+    "product_name": "GlobeRoof Firestop",
+    "description": "Insulated fire-resistant roofing panel",
+    "images": [
+      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/Firestop-qyPaFGmuqOFsj3mkc8AMW847JBzZgd.png"
+    ],
+    "core_types": {
+      "pur": {
+        "available": false,
+        "fire_rating": ""
+      },
+      "pir": {
+        "available": false,
+        "fire_rating": ""
+      },
+      "rockwool": {
+        "available": true,
+        "fire_rating": "A2,s1-d0; REI 30, REI 60, REI 90, REI 120"
+      }
+    },
+    "joint_type": "Visible",
+    "panel_width_mm": 1000,
+    "thermals": [
+      {
+        "thickness_mm": 50,
+        "watts_per_m2_kelvin": 0.74,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": null
+      },
+      {
+        "thickness_mm": 60,
+        "watts_per_m2_kelvin": 0.63,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": null
+      },
+      {
+        "thickness_mm": 80,
+        "watts_per_m2_kelvin": 0.48,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": null
+      },
+      {
+        "thickness_mm": 100,
+        "watts_per_m2_kelvin": 0.39,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": null
+      },
+      {
+        "thickness_mm": 120,
+        "watts_per_m2_kelvin": 0.33,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": null
+      },
+      {
+        "thickness_mm": 150,
+        "watts_per_m2_kelvin": 0.27,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": null
+      },
+      {
+        "thickness_mm": 200,
+        "watts_per_m2_kelvin": 0.2,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": null
+      }
+    ],
+    "sides": {
+      "external": {
+        "isFlat": false,
+        "isPerforated": false,
+        "materials": [
+          "Polystere",
+          "PVDF",
+          "PUR/PA",
+          "Plastisol",
+          "Galvanized Steel",
+          "Aluminum"
+        ],
+        "thicknesses_mm": [
+          0.6,
+          0.5
+        ],
+        "ribs": {
+          "count": 5,
+          "rib_type": "High",
+          "height_mm": 40,
+          "spacing_mm": 200,
+          "top_width_mm": 25,
+          "bottom_width_mm": 40
+        },
+        "colors": {
+          "standard": [],
+          "special": []
+        },
+        "coating": [
+          "Polystere",
+          "PVDF",
+          "PUR/PA",
+          "Plastisol"
+        ]
+      },
+      "internal": {
+        "isFlat": false,
+        "isPerforated": false,
+        "materials": [
+          "Polystere",
+          "PVDF",
+          "PUR/PA",
+          "Plastisol",
+          "Stainless Steel 316",
+          "Stainless Steel 304",
+          "Aluminum",
+          "Galvanized Steel"
+        ],
+        "thicknesses_mm": [
+          0.5,
+          0.6
+        ],
+        "ribs": {
+          "count": 29,
+          "rib_type": "Narrow",
+          "height_mm": 2,
+          "spacing_mm": 2,
+          "top_width_mm": 5,
+          "bottom_width_mm": 2
+        },
+        "colors": {
+          "standard": [],
+          "special": []
+        },
+        "coating": [
+          "Polystere",
+          "PVDF",
+          "PUR/PA",
+          "Plastisol"
+        ]
+      }
+    },
+    "load_bearing_chart": {
+      "single_bay": {
+        "configuration": "Standard Panel",
+        "supported": true,
+        "static_characteristics": [
+          {
+            "thickness_mm": 50,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 164,
+              "3": 73,
+              "4": 41,
+              "5": 26,
+              "6": 18,
+              "1.5": null,
+              "2.5": 105,
+              "3.5": 54,
+              "4.5": 32,
+              "5.5": 22
+            }
+          },
+          {
+            "thickness_mm": 60,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 192,
+              "3": 85,
+              "4": 48,
+              "5": 31,
+              "6": 21,
+              "1.5": null,
+              "2.5": 123,
+              "3.5": 63,
+              "4.5": 38,
+              "5.5": 25
+            }
+          },
+          {
+            "thickness_mm": 80,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 363,
+              "3": 161,
+              "4": 91,
+              "5": 58,
+              "6": 40,
+              "1.5": null,
+              "2.5": 232,
+              "3.5": 119,
+              "4.5": 72,
+              "5.5": 48
+            }
+          },
+          {
+            "thickness_mm": 100,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 404,
+              "3": 224,
+              "4": 126,
+              "5": 81,
+              "6": 56,
+              "1.5": null,
+              "2.5": 323,
+              "3.5": 165,
+              "4.5": 100,
+              "5.5": 67
+            }
+          },
+          {
+            "thickness_mm": 120,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 438,
+              "3": 265,
+              "4": 149,
+              "5": 96,
+              "6": 66,
+              "1.5": null,
+              "2.5": 351,
+              "3.5": 195,
+              "4.5": 118,
+              "5.5": 79
+            }
+          },
+          {
+            "thickness_mm": 150,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 460,
+              "3": 284,
+              "4": 161,
+              "5": 100,
+              "6": 69,
+              "1.5": null,
+              "2.5": 370,
+              "3.5": 215,
+              "4.5": 127,
+              "5.5": 83
+            }
+          },
+          {
+            "thickness_mm": 200,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 465,
+              "3": 290,
+              "4": 169,
+              "5": 112,
+              "6": 82,
+              "1.5": null,
+              "2.5": 375,
+              "3.5": 220,
+              "4.5": 149,
+              "5.5": 94
+            }
+          }
+        ]
+      },
+      "multiple_bay": {
+        "configuration": "Standard Panel",
+        "supported": true,
+        "static_characteristics": [
+          {
+            "thickness_mm": 50,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 171,
+              "3": 60,
+              "4": 28,
+              "5": 15,
+              "6": 9,
+              "1.5": null,
+              "2.5": 97,
+              "3.5": 40,
+              "4.5": 20,
+              "5.5": 12
+            }
+          },
+          {
+            "thickness_mm": 60,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 216,
+              "3": 79,
+              "4": 37,
+              "5": 20,
+              "6": 12,
+              "1.5": null,
+              "2.5": 125,
+              "3.5": 53,
+              "4.5": 27,
+              "5.5": 15
+            }
+          },
+          {
+            "thickness_mm": 80,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 281,
+              "3": 193,
+              "4": 99,
+              "5": 59,
+              "6": 38,
+              "1.5": null,
+              "2.5": 213,
+              "3.5": 135,
+              "4.5": 75,
+              "5.5": 47
+            }
+          },
+          {
+            "thickness_mm": 100,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 326,
+              "3": 205,
+              "4": 148,
+              "5": 89,
+              "6": 59,
+              "1.5": null,
+              "2.5": 252,
+              "3.5": 173,
+              "4.5": 113,
+              "5.5": 71
+            }
+          },
+          {
+            "thickness_mm": 120,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 359,
+              "3": 225,
+              "4": 164,
+              "5": 108,
+              "6": 61,
+              "1.5": null,
+              "2.5": 277,
+              "3.5": 189,
+              "4.5": 137,
+              "5.5": 87
+            }
+          },
+          {
+            "thickness_mm": 150,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 370,
+              "3": 239,
+              "4": 175,
+              "5": 120,
+              "6": 64,
+              "1.5": null,
+              "2.5": 288,
+              "3.5": 203,
+              "4.5": 149,
+              "5.5": 93
+            }
+          },
+          {
+            "thickness_mm": 200,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 378,
+              "3": 250,
+              "4": 186,
+              "5": 133,
+              "6": 78,
+              "1.5": null,
+              "2.5": 296,
+              "3.5": 215,
+              "4.5": 155,
+              "5.5": 105
+            }
+          }
+        ]
+      }
+    },
+    "weight_chart": [
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 13.1
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 13.8
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 15.3
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 16.8
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 18.3
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 20.6
+          },
+          {
+            "core_thickness_mm": 200,
+            "total_weight_kg_m2": 24.3
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 14
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 14.8
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 16.3
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 17.8
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 19.3
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 21.5
+          },
+          {
+            "core_thickness_mm": 200,
+            "total_weight_kg_m2": 25.3
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.6,
+        "weights": [
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 14.9
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 15.6
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 17.1
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 18.6
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 20.1
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 22.4
+          },
+          {
+            "core_thickness_mm": 200,
+            "total_weight_kg_m2": 26.1
+          }
+        ]
+      }
+    ],
+    "certificate_type": "EPD",
+    "shipping": {
+      "lead_time": 20,
+      "port_of_shipping": "GENOA",
+      "shipping_time": 30,
+      "shipping_container_capacity": [],
+      "shipping_instructions": "MODEL\tTHICKNESS MM\tLENGHT MM\t# PANELS\tMAX M2\nGLOBEROOF FIRESTOP\t50\t11900\t66\t785,4\nGLOBEROOF FIRESTOP\t60\t11900\t56\t666,4\nGLOBEROOF FIRESTOP\t80\t11900\t46\t547,4\nGLOBEROOF FIRESTOP\t100\t11900\t38\t452,2\nGLOBEROOF FIRESTOP\t120\t11900\t32\t380,8\nGLOBEROOF FIRESTOP\t150\t11900\t26\t309,4\nGLOBEROOF FIRESTOP\t200\t11900\t18\t214,2\n\nNOTE: ALL ROCKWOOL PANELS WILL BE LOADED USING WOODEN SKIDS. THOSE SKIDS WILL HELP THE CUSTOMER TO UNLOAD THE CONTAINERS USING FORKLIFTS"
+    },
+    "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films and non-toxic coatings for occasional contact with food are available on request. The geometrical configuration of the panel, with its innovative joint, does not need any seals, the monolithic system is guaranteed by the perfect adhesion between the parts (fiberglass, metallic support, films) obtained with exclusive patented technology. In particularly critical situations, the system can be improved using of a simple expanded sealant joint. Mineral wool panels, due to their characteristics, have a considerable mass, it is suggested to evaluate their dimensions in order to avoid problems related to excessive weight during the handling and assembly phases.",
+    "sample_questions": [],
+    "reviewed_by": "AI",
+    "status": "Pending",
+    "review_date": "2025-02-18T15:46:01.317Z"
+  },
+  {
+    "product_name": "GlobeRoof Mediterranean",
+    "description": "Insulated roofing panel with a Mediterranean tile profile",
+    "images": [
+      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102021-fK9GYJJSn8Dp5hAbhIdTiaPsqbXgOA.png",
+      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102035-k3mmyBQ3KvHVAQJOCWe4EIFp4puUTr.png",
+      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102056-ET8Y6Ms9YgTiZMPceik6HCLfJvyOwR.png",
+      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102107-OIxFnuxCZZSCDJxhgOyw2Wg6HQiPHD.png",
+      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102119-8fxa15LuDZWT3qfpT4qjOjCGfAYNFa.png",
+      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102144-eAkwVs0lIZ0I8HxgtyESdRm038wdSg.png"
+    ],
+    "core_types": {
+      "pur": {
+        "available": true,
+        "fire_rating": ""
+      },
+      "pir": {
+        "available": true,
+        "fire_rating": "B,S2-D0"
+      },
+      "rockwool": {
+        "available": false,
+        "fire_rating": ""
+      }
+    },
+    "joint_type": "Visible",
+    "panel_width_mm": 1000,
+    "thermals": [
+      {
+        "thickness_mm": 40,
+        "watts_per_m2_kelvin": 0.58,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 9.79
+      },
+      {
+        "thickness_mm": 60,
+        "watts_per_m2_kelvin": 0.37,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 15.35
+      },
+      {
+        "thickness_mm": 80,
+        "watts_per_m2_kelvin": 0.26,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 21.84
+      },
+      {
+        "thickness_mm": 100,
+        "watts_per_m2_kelvin": 0.2,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 28.39
+      }
+    ],
+    "sides": {
+      "external": {
+        "isFlat": false,
+        "isPerforated": false,
+        "materials": [
+          "Polystere",
+          "PUR/PA",
+          "Galvanized Steel"
+        ],
+        "thicknesses_mm": [
+          0.5,
+          0.6
+        ],
+        "ribs": {
+          "count": 5,
+          "rib_type": "Tile",
+          "height_mm": 40,
+          "spacing_mm": 166.66,
+          "top_width_mm": null,
+          "bottom_width_mm": 40
+        },
+        "colors": {
+          "standard": [
+            "RAL 8004 MAT"
+          ],
+          "special": []
+        },
+        "coating": [
+          "Polystere",
+          "PVDF",
+          "PUR/PA"
+        ]
+      },
+      "internal": {
+        "isFlat": true,
+        "isPerforated": false,
+        "materials": [
+          "bitumen felt membrane",
+          "aluminium"
+        ],
+        "thicknesses_mm": [
+          0.08
+        ],
+        "ribs": {
+          "count": null,
+          "rib_type": null,
+          "height_mm": null,
+          "spacing_mm": null,
+          "top_width_mm": null,
+          "bottom_width_mm": null
+        },
+        "colors": {
+          "standard": [],
+          "special": []
+        },
+        "coating": []
+      }
+    },
+    "load_bearing_chart": {
+      "single_bay": {
+        "configuration": "Standard Panel",
+        "supported": true,
+        "static_characteristics": [
+          {
+            "thickness_mm": 40,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 126,
+              "3": 27,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 154,
+              "2.5": 51,
+              "3.5": null,
+              "4.5": null,
+              "5.5": null
+            }
+          },
+          {
+            "thickness_mm": 60,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 148,
+              "3": 31,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 182,
+              "2.5": 60,
+              "3.5": null,
+              "4.5": null,
+              "5.5": null
+            }
+          },
+          {
+            "thickness_mm": 80,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 176,
+              "3": 37,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 216,
+              "2.5": 71,
+              "3.5": null,
+              "4.5": null,
+              "5.5": null
+            }
+          },
+          {
+            "thickness_mm": 100,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 209,
+              "3": 44,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 257,
+              "2.5": 84,
+              "3.5": null,
+              "4.5": null,
+              "5.5": null
+            }
+          }
+        ]
+      },
+      "multiple_bay": {
+        "configuration": "Standard Panel",
+        "supported": true,
+        "static_characteristics": [
+          {
+            "thickness_mm": 40,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 135,
+              "3": 35,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 166,
+              "2.5": 60,
+              "3.5": null,
+              "4.5": null,
+              "5.5": null
+            }
+          },
+          {
+            "thickness_mm": 60,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 158,
+              "3": 36,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 193,
+              "2.5": 71,
+              "3.5": null,
+              "4.5": null,
+              "5.5": null
+            }
+          },
+          {
+            "thickness_mm": 80,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 185,
+              "3": 43,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 231,
+              "2.5": 79,
+              "3.5": null,
+              "4.5": null,
+              "5.5": null
+            }
+          },
+          {
+            "thickness_mm": 100,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 218,
+              "3": 50,
+              "4": null,
+              "5": null,
+              "6": null,
+              "1.5": 268,
+              "2.5": 95,
+              "3.5": null,
+              "4.5": null,
+              "5.5": null
+            }
+          }
+        ]
+      }
+    },
+    "weight_chart": [
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.4,
+        "weights": [
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 9.32
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 10.1
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 10.88
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 11.66
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 10.15
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 10.93
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 11.71
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 12.49
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.4,
+        "weights": [
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 10.29
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 11.07
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 11.85
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 12.63
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 11.12
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 11.9
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 12.68
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 13.46
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.6,
+        "weights": [
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 11.95
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 12.73
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 13.51
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 14.29
+          }
+        ]
+      }
+    ],
+    "certificate_type": "EPD",
+    "shipping": {
+      "lead_time": null,
+      "port_of_shipping": "",
+      "shipping_time": null,
+      "shipping_container_capacity": [
+        {
+          "thickness_mm": 40,
+          "length_mm": 11900,
+          "max_panels": null,
+          "max_m2": 762.82
+        },
+        {
+          "thickness_mm": 60,
+          "length_mm": 11900,
+          "max_panels": null,
+          "max_m2": 595
+        },
+        {
+          "thickness_mm": 80,
+          "length_mm": 11900,
+          "max_panels": null,
+          "max_m2": 452.2
+        },
+        {
+          "thickness_mm": 100,
+          "length_mm": 11900,
+          "max_panels": null,
+          "max_m2": 452.2
+        }
+      ],
+      "shipping_instructions": "MODEL THICKNESS mm LENGHT mm # PANELS MAX m2\nGloberoof Mediterranean 40MM 11900 ? 762,82\nGloberoof Mediterranean 60MM 11900 ? 595\nGloberoof Mediterranean 80MM 11900 ? 452,2\nGloberoof Mediterranean 100MM 11900 ? 452,2"
+    },
+    "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films and non-toxic coatings for occasional contact with food are available on request.",
+    "sample_questions": [],
+    "reviewed_by": "AI",
+    "status": "Pending",
+    "review_date": "2025-02-17T12:14:11.536Z"
+  },
+  {
+    "product_name": "GlobeRoof Noisestop",
+    "description": "Insulated sound-absorbing roofing panel",
+    "images": [
+      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102323-3VI0wzOySaASi1r0hqVMyKtEOJmCOk.png",
+      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102345-NCtvHGX66tCLhnjihgiIANwvdxBtOG.png"
+    ],
+    "core_types": {
+      "pur": {
+        "available": false,
+        "fire_rating": ""
+      },
+      "pir": {
+        "available": false,
+        "fire_rating": ""
+      },
+      "rockwool": {
+        "available": true,
+        "fire_rating": "A1,S2-D0"
+      }
+    },
+    "joint_type": "Visible",
+    "panel_width_mm": 1000,
+    "thermals": [
+      {
+        "thickness_mm": 50,
+        "watts_per_m2_kelvin": 0.74,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": null
+      },
+      {
+        "thickness_mm": 60,
+        "watts_per_m2_kelvin": 0.63,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": null
+      },
+      {
+        "thickness_mm": 80,
+        "watts_per_m2_kelvin": 0.48,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": null
+      },
+      {
+        "thickness_mm": 100,
+        "watts_per_m2_kelvin": 0.39,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": null
+      },
+      {
+        "thickness_mm": 120,
+        "watts_per_m2_kelvin": 0.33,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": null
+      },
+      {
+        "thickness_mm": 150,
+        "watts_per_m2_kelvin": 0.27,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": null
+      },
+      {
+        "thickness_mm": 200,
+        "watts_per_m2_kelvin": 0.2,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": null
+      }
+    ],
+    "sides": {
+      "external": {
+        "isFlat": false,
+        "isPerforated": false,
+        "materials": [
+          "Polystere",
+          "PVDF",
+          "PUR/PA",
+          "Plastisol",
+          "Galvanized Steel",
+          "Aluminum"
+        ],
+        "thicknesses_mm": [
+          0.6,
+          0.5
+        ],
+        "ribs": {
+          "count": 4,
+          "rib_type": "High",
+          "height_mm": 40,
+          "spacing_mm": 200,
+          "top_width_mm": 25,
+          "bottom_width_mm": 40
+        },
+        "colors": {
+          "standard": [],
+          "special": []
+        },
+        "coating": [
+          "Polystere",
+          "PVDF",
+          "PUR/PA",
+          "Plastisol"
+        ]
+      },
+      "internal": {
+        "isFlat": false,
+        "isPerforated": true,
+        "materials": [
+          "galvanized steel",
+          "galvanized prepainted or plastified steel",
+          "stainless steel",
+          "natural, prepainted or embossed aluminium",
+          "copper",
+          "Galvanized Steel",
+          "Aluminum",
+          "Stainless Steel 304",
+          "Stainless Steel 316"
+        ],
+        "thicknesses_mm": [
+          0.5
+        ],
+        "ribs": {
+          "count": 29,
+          "rib_type": "Narrow",
+          "height_mm": 2,
+          "spacing_mm": 2,
+          "top_width_mm": 5,
+          "bottom_width_mm": 2
+        },
+        "colors": {
+          "standard": [
+            "Ral 9002"
+          ],
+          "special": [
+            ""
+          ]
+        },
+        "coating": [
+          "Polystere",
+          "PVDF",
+          "PUR/PA",
+          "Plastisol"
+        ]
+      }
+    },
+    "load_bearing_chart": {
+      "single_bay": {
+        "configuration": "Standard Panel",
+        "supported": true,
+        "static_characteristics": [
+          {
+            "thickness_mm": 50,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 78,
+              "3": 35,
+              "4": 19,
+              "5": 12,
+              "6": 9,
+              "1.5": null,
+              "2.5": 50,
+              "3.5": 25,
+              "4.5": 15,
+              "5.5": 10
+            }
+          },
+          {
+            "thickness_mm": 60,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 91,
+              "3": 40,
+              "4": 23,
+              "5": 15,
+              "6": 10,
+              "1.5": null,
+              "2.5": 58,
+              "3.5": 30,
+              "4.5": 18,
+              "5.5": 12
+            }
+          },
+          {
+            "thickness_mm": 80,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 221,
+              "3": 98,
+              "4": 55,
+              "5": 35,
+              "6": 25,
+              "1.5": null,
+              "2.5": 141,
+              "3.5": 72,
+              "4.5": 44,
+              "5.5": 29
+            }
+          },
+          {
+            "thickness_mm": 100,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 244,
+              "3": 108,
+              "4": 61,
+              "5": 39,
+              "6": 27,
+              "1.5": null,
+              "2.5": 156,
+              "3.5": 80,
+              "4.5": 48,
+              "5.5": 32
+            }
+          },
+          {
+            "thickness_mm": 120,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 289,
+              "3": 128,
+              "4": 72,
+              "5": 46,
+              "6": 32,
+              "1.5": null,
+              "2.5": 185,
+              "3.5": 94,
+              "4.5": 57,
+              "5.5": 38
+            }
+          },
+          {
+            "thickness_mm": 150,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 306,
+              "3": 136,
+              "4": 76,
+              "5": 49,
+              "6": 34,
+              "1.5": null,
+              "2.5": 196,
+              "3.5": 100,
+              "4.5": 60,
+              "5.5": 40
+            }
+          },
+          {
+            "thickness_mm": 200,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 324,
+              "3": 144,
+              "4": 81,
+              "5": 52,
+              "6": 36,
+              "1.5": null,
+              "2.5": 208,
+              "3.5": 106,
+              "4.5": 64,
+              "5.5": 43
+            }
+          }
+        ]
+      },
+      "multiple_bay": {
+        "configuration": "Standard Panel",
+        "supported": true,
+        "static_characteristics": [
+          {
+            "thickness_mm": 50,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 82,
+              "3": 36,
+              "4": 20,
+              "5": 13,
+              "6": 9,
+              "1.5": null,
+              "2.5": 52,
+              "3.5": 27,
+              "4.5": 16,
+              "5.5": 11
+            }
+          },
+          {
+            "thickness_mm": 60,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 96,
+              "3": 43,
+              "4": 24,
+              "5": 15,
+              "6": 11,
+              "1.5": null,
+              "2.5": 61,
+              "3.5": 31,
+              "4.5": 19,
+              "5.5": 13
+            }
+          },
+          {
+            "thickness_mm": 80,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 232,
+              "3": 103,
+              "4": 58,
+              "5": 37,
+              "6": 26,
+              "1.5": null,
+              "2.5": 149,
+              "3.5": 76,
+              "4.5": 46,
+              "5.5": 31
+            }
+          },
+          {
+            "thickness_mm": 100,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 256,
+              "3": 114,
+              "4": 64,
+              "5": 41,
+              "6": 28,
+              "1.5": null,
+              "2.5": 164,
+              "3.5": 84,
+              "4.5": 51,
+              "5.5": 34
+            }
+          },
+          {
+            "thickness_mm": 120,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 304,
+              "3": 135,
+              "4": 76,
+              "5": 49,
+              "6": 34,
+              "1.5": null,
+              "2.5": 194,
+              "3.5": 99,
+              "4.5": 60,
+              "5.5": 40
+            }
+          },
+          {
+            "thickness_mm": 150,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 324,
+              "3": 144,
+              "4": 81,
+              "5": 52,
+              "6": 36,
+              "1.5": null,
+              "2.5": 208,
+              "3.5": 106,
+              "4.5": 64,
+              "5.5": 43
+            }
+          },
+          {
+            "thickness_mm": 200,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 344,
+              "3": 153,
+              "4": 86,
+              "5": 55,
+              "6": 38,
+              "1.5": null,
+              "2.5": 220,
+              "3.5": 112,
+              "4.5": 68,
+              "5.5": 45
+            }
+          }
+        ]
+      }
+    },
+    "weight_chart": [
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 11.1
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 11.8
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 13.3
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 14.8
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 16.3
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 18.6
+          },
+          {
+            "core_thickness_mm": 200,
+            "total_weight_kg_m2": 22.4
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 12
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 12.8
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 14.3
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 15.8
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 17.3
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 19.5
+          },
+          {
+            "core_thickness_mm": 200,
+            "total_weight_kg_m2": 23.3
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.6,
+        "weights": [
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 12.6
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 13.3
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 14.8
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 16.3
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 17.8
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 20.1
+          },
+          {
+            "core_thickness_mm": 200,
+            "total_weight_kg_m2": 23.8
+          }
+        ]
+      }
+    ],
+    "certificate_type": "EPD, REI 120",
+    "shipping": {
+      "lead_time": 20,
+      "port_of_shipping": "GENOA",
+      "shipping_time": 30,
+      "shipping_container_capacity": [],
+      "shipping_instructions": "MODEL\tTHICKNESS MM\tLENGHT MM\t# PANELS\tMAX M2\nGLOBEROOF FIRESTOP\t50\t11900\t66\t785,4\nGLOBEROOF FIRESTOP\t60\t11900\t56\t666,4\nGLOBEROOF FIRESTOP\t80\t11900\t46\t547,4\nGLOBEROOF FIRESTOP\t100\t11900\t38\t452,2\nGLOBEROOF FIRESTOP\t120\t11900\t32\t380,8\nGLOBEROOF FIRESTOP\t150\t11900\t26\t309,4\nGLOBEROOF FIRESTOP\t200\t11900\t18\t214,2\n\nNOTE: ALL ROCKWOOL PANELS WILL BE LOADED USING WOODEN SKIDS. THOSE SKIDS WILL HELP THE CUSTOMER TO UNLOAD THE CONTAINERS USING FORKLIFTS"
+    },
+    "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films and non-toxic coatings for occasional contact with food are available on request. The geometrical configuration of the panel, with its innovative joint, does not need any seals, the monolithic system is guaranteed by the perfect adhesion between the parts (fiberglass, metallic support, films) obtained with exclusive patented technology. In particularly critical situations, the system can be improved using of a simple expanded sealant joint. Loading charts are calculated with standard mineral wool density.\nGLOBEROOF NOISESTOP Sound Absorption (a) Values:\n0.00 (no absorption, full reflection)\n1.00 (total absorption, no reflection)\nPanel Thickness (mm)\tSound Absorption (a)\n50 mm\t0.65\n60 mm\t0.65\n80 mm\t0.80\n100 mm\t0.90\n120 mm\t0.90\n150 mm\t0.95\n200 mm\t0.95\ngloberoof noisestop with higher thickness surfaces absorb more sound, making them suitable for noise control applications, thanks to its micro-perforated surface.\nGLOBEROOF NOISESTOP Rw Values:\nPanel Thickness (mm)\tRw (Sound Insulation in dB)\n50 mm\t33.6 dB\n60 mm\t33.6 dB\n80 mm\t33.6 dB\n100 mm\t34.7 dB\n120 mm\t34.7 dB\n150 mm\t34.7 dB\n200 mm\t34.7 dB\nThe mineral wool core and micro-perforated options enhance sound insulation, making GLOBEROOF NOISESTOP ideal for industrial facilities, auditoriums, and high-noise environments.",
+    "sample_questions": [],
+    "reviewed_by": "AI",
+    "status": "Pending",
+    "review_date": "2025-02-18T08:31:31.770Z"
+  },
+  {
+    "product_name": "GlobeRoof Sun",
+    "description": "Insulated roofing panel for solar installations",
+    "images": [
+      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102444-Yri93SVCPfOfKz9VJxglGhWa8TiKQm.png"
+    ],
+    "core_types": {
+      "pur": {
+        "available": true,
+        "fire_rating": ""
+      },
+      "pir": {
+        "available": true,
+        "fire_rating": "B-s2,d0; B,s1-d0; REI 30 ON 100MM"
+      },
+      "rockwool": {
+        "available": false,
+        "fire_rating": ""
+      }
+    },
+    "joint_type": "Visible",
+    "panel_width_mm": 1000,
+    "thermals": [
+      {
+        "thickness_mm": 30,
+        "watts_per_m2_kelvin": 0.73,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 7.78
+      },
+      {
+        "thickness_mm": 40,
+        "watts_per_m2_kelvin": 0.58,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 9.79
+      },
+      {
+        "thickness_mm": 50,
+        "watts_per_m2_kelvin": 0.44,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 12.9
+      },
+      {
+        "thickness_mm": 60,
+        "watts_per_m2_kelvin": 0.37,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 15.35
+      },
+      {
+        "thickness_mm": 80,
+        "watts_per_m2_kelvin": 0.26,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 21.84
+      },
+      {
+        "thickness_mm": 100,
+        "watts_per_m2_kelvin": 0.2,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 28.39
+      },
+      {
+        "thickness_mm": 120,
+        "watts_per_m2_kelvin": 0.17,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 33.4
+      },
+      {
+        "thickness_mm": 140,
+        "watts_per_m2_kelvin": 0.14,
+        "btu_per_hour_per_ft2_fahrenheit": null,
+        "r_value": 40.56
+      }
+    ],
+    "sides": {
+      "external": {
+        "isFlat": false,
+        "isPerforated": false,
+        "materials": [
+          "Prepainted or plasticized galvanized steel",
+          "Aluzinc",
+          "stainless steel",
+          "natural, prepainted or embossed aluminum",
+          "Galvanized Steel",
+          "Aluminum"
+        ],
+        "thicknesses_mm": [],
+        "ribs": {
+          "count": 4,
+          "rib_type": "High",
+          "height_mm": 35,
+          "spacing_mm": 250,
+          "top_width_mm": 30,
+          "bottom_width_mm": 48
+        },
+        "colors": {
+          "standard": [
+            "Ral 9002",
+            "Ral 9010",
+            "Ral 3009",
+            "Ral 8017"
+          ],
+          "special": [
+            "Ral 9006",
+            "Ral 9007",
+            "Ral 7012",
+            "Ral 7016"
+          ]
+        },
+        "coating": [
+          "Polystere",
+          "PVDF",
+          "PUR/PA",
+          "Plastisol"
+        ]
+      },
+      "internal": {
+        "isFlat": false,
+        "isPerforated": false,
+        "materials": [
+          "Prepainted or plasticized galvanized steel",
+          "Aluzinc",
+          "stainless steel",
+          "natural, prepainted or embossed aluminum",
+          "Galvanized Steel",
+          "Aluminum",
+          "Stainless Steel 304",
+          "Stainless Steel 316"
+        ],
+        "thicknesses_mm": [],
+        "ribs": {
+          "count": 29,
+          "rib_type": "Narrow",
+          "height_mm": 2,
+          "spacing_mm": 2,
+          "top_width_mm": 5,
+          "bottom_width_mm": 2
+        },
+        "colors": {
+          "standard": [
+            "Ral 9002",
+            "Ral 9010"
+          ],
+          "special": []
+        },
+        "coating": [
+          "Polystere",
+          "PVDF",
+          "PUR/PA",
+          "Plastisol"
+        ]
+      }
+    },
+    "load_bearing_chart": {
+      "single_bay": {
+        "configuration": "Standard Panel",
+        "supported": true,
+        "static_characteristics": [
+          {
+            "thickness_mm": 30,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 190,
+              "3": 66,
+              "4": 30,
+              "5": 16,
+              "6": null,
+              "1.5": 416,
+              "2.5": 106,
+              "3.5": 44,
+              "4.5": 22,
+              "5.5": 12
+            }
+          },
+          {
+            "thickness_mm": 40,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 226,
+              "3": 86,
+              "4": 43,
+              "5": 24,
+              "6": 15,
+              "1.5": 470,
+              "2.5": 132,
+              "3.5": 60,
+              "4.5": 32,
+              "5.5": 19
+            }
+          },
+          {
+            "thickness_mm": 50,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 261,
+              "3": 107,
+              "4": 57,
+              "5": 34,
+              "6": 21,
+              "1.5": 522,
+              "2.5": 159,
+              "3.5": 76,
+              "4.5": 43,
+              "5.5": 26
+            }
+          },
+          {
+            "thickness_mm": 60,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 296,
+              "3": 127,
+              "4": 70,
+              "5": 43,
+              "6": 28,
+              "1.5": 573,
+              "2.5": 185,
+              "3.5": 93,
+              "4.5": 55,
+              "5.5": 35
+            }
+          },
+          {
+            "thickness_mm": 80,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 365,
+              "3": 169,
+              "4": 99,
+              "5": 64,
+              "6": 43,
+              "1.5": 672,
+              "2.5": 237,
+              "3.5": 127,
+              "4.5": 79,
+              "5.5": 52
+            }
+          },
+          {
+            "thickness_mm": 100,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 443,
+              "3": 111,
+              "4": 128,
+              "5": 85,
+              "6": 60,
+              "1.5": 712,
+              "2.5": 289,
+              "3.5": 162,
+              "4.5": 104,
+              "5.5": 71
+            }
+          },
+          {
+            "thickness_mm": 120,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 501,
+              "3": 253,
+              "4": 158,
+              "5": 108,
+              "6": 77,
+              "1.5": 713,
+              "2.5": 341,
+              "3.5": 196,
+              "4.5": 129,
+              "5.5": 91
+            }
+          },
+          {
+            "thickness_mm": 140,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 536,
+              "3": 295,
+              "4": 188,
+              "5": 130,
+              "6": 95,
+              "1.5": 714,
+              "2.5": 393,
+              "3.5": 232,
+              "4.5": 155,
+              "5.5": 111
+            }
+          }
+        ]
+      },
+      "multiple_bay": {
+        "configuration": "Standard Panel",
+        "supported": true,
+        "static_characteristics": [
+          {
+            "thickness_mm": 30,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 451,
+              "3": 204,
+              "4": 111,
+              "5": 70,
+              "6": 48,
+              "1.5": 615,
+              "2.5": 299,
+              "3.5": 147,
+              "4.5": 87,
+              "5.5": 57
+            }
+          },
+          {
+            "thickness_mm": 40,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 471,
+              "3": 265,
+              "4": 144,
+              "5": 91,
+              "6": 62,
+              "1.5": 643,
+              "2.5": 371,
+              "3.5": 191,
+              "4.5": 113,
+              "5.5": 74
+            }
+          },
+          {
+            "thickness_mm": 50,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 492,
+              "3": 318,
+              "4": 178,
+              "5": 111,
+              "6": 76,
+              "1.5": 671,
+              "2.5": 386,
+              "3.5": 236,
+              "4.5": 139,
+              "5.5": 91
+            }
+          },
+          {
+            "thickness_mm": 60,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 512,
+              "3": 331,
+              "4": 212,
+              "5": 133,
+              "6": 91,
+              "1.5": 690,
+              "2.5": 402,
+              "3.5": 281,
+              "4.5": 165,
+              "5.5": 109
+            }
+          },
+          {
+            "thickness_mm": 80,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 546,
+              "3": 357,
+              "4": 262,
+              "5": 175,
+              "6": 120,
+              "1.5": 714,
+              "2.5": 435,
+              "3.5": 302,
+              "4.5": 219,
+              "5.5": 144
+            }
+          },
+          {
+            "thickness_mm": 100,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 557,
+              "3": 374,
+              "4": 274,
+              "5": 212,
+              "6": 149,
+              "1.5": 732,
+              "2.5": 455,
+              "3.5": 314,
+              "4.5": 241,
+              "5.5": 179
+            }
+          },
+          {
+            "thickness_mm": 120,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 558,
+              "3": 376,
+              "4": 275,
+              "5": 218,
+              "6": 175,
+              "1.5": 730,
+              "2.5": 456,
+              "3.5": 318,
+              "4.5": 245,
+              "5.5": 196
+            }
+          },
+          {
+            "thickness_mm": 140,
+            "weight_kg_per_m2": null,
+            "distance_between_supports_m": {
+              "2": 559,
+              "3": 378,
+              "4": 278,
+              "5": 220,
+              "6": 179,
+              "1.5": 728,
+              "2.5": 457,
+              "3.5": 320,
+              "4.5": 247,
+              "5.5": 198
+            }
+          }
+        ]
+      }
+    },
+    "weight_chart": [
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.4,
+        "weights": [
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 9.1
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 9.5
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 9.9
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 10.7
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 11.5
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 12.2
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 13
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 10
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 10.3
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 10.7
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 11.5
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 12.3
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 13.1
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 13.9
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.4,
+        "weights": [
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 10.1
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 10.5
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 10.9
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 11.7
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 12.4
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 13.2
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 14
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 11
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 11.4
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 11.8
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 12.5
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 13.3
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 14.1
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 14.9
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.6,
+        "weights": [
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 11.8
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 12.1
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 12.5
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 13.3
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 14.1
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 14.9
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 15.7
+          }
+        ]
+      }
+    ],
+    "certificate_type": "EPD, REI",
+    "shipping": {
+      "lead_time": 30,
+      "port_of_shipping": "GENOA",
+      "shipping_time": 30,
+      "shipping_container_capacity": [],
+      "shipping_instructions": ""
+    },
+    "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films are available on request. The fixing is the most important element of GLOBEROOF SUN Allows to realize a ventilated roof without drilling metal insulated panels and maintaining appropriate mechanical characteristics of resistance to stress. Dryfix™™, (product name is inspired by its properties: fixing dry and safe) without holes can connect tiles, plates, solar thermal panels or photovoltaic modules. It does not need screws, bolts, rivets, self-drilling screws with rubber seals.",
+    "sample_questions": [],
+    "reviewed_by": "AI",
+    "status": "Pending",
+    "review_date": "2025-02-18T14:02:20.165Z"
+  },
+  {
+    "product_name": "GlobeWall",
     "description": "Insulated wall panel.",
     "images": [
       "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203100210-6j1ZQ2BKwf8uRS5ASMZVqlAGMhKkzX.png"
@@ -1342,2293 +4019,367 @@
         ]
       }
     },
+    "weight_chart": [
+      {
+        "outer_steel_thickness": 0.4,
+        "inner_steel_thickness": 0.4,
+        "weights": [
+          {
+            "core_thickness_mm": 25,
+            "total_weight_kg_m2": 6.9
+          },
+          {
+            "core_thickness_mm": 30,
+            "total_weight_kg_m2": 7.1
+          },
+          {
+            "core_thickness_mm": 35,
+            "total_weight_kg_m2": 7.3
+          },
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 7.5
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 7.9
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 8.2
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 9
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 9.8
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 10.6
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 11.4
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 11.8
+          },
+          {
+            "core_thickness_mm": 160,
+            "total_weight_kg_m2": 12.1
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.4,
+        "weights": [
+          {
+            "core_thickness_mm": 25,
+            "total_weight_kg_m2": 7.7
+          },
+          {
+            "core_thickness_mm": 30,
+            "total_weight_kg_m2": 7.9
+          },
+          {
+            "core_thickness_mm": 35,
+            "total_weight_kg_m2": 8.1
+          },
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 8.3
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 8.7
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 9.1
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 9.9
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 10.6
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 11.4
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 12.2
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 12.6
+          },
+          {
+            "core_thickness_mm": 160,
+            "total_weight_kg_m2": 13
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 25,
+            "total_weight_kg_m2": 8.5
+          },
+          {
+            "core_thickness_mm": 30,
+            "total_weight_kg_m2": 8.7
+          },
+          {
+            "core_thickness_mm": 35,
+            "total_weight_kg_m2": 8.9
+          },
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 9.1
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 9.5
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 9.9
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 10.7
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 11.5
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 12.2
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 13
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 13.4
+          },
+          {
+            "core_thickness_mm": 160,
+            "total_weight_kg_m2": 13.8
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 25,
+            "total_weight_kg_m2": 9.4
+          },
+          {
+            "core_thickness_mm": 30,
+            "total_weight_kg_m2": 9.6
+          },
+          {
+            "core_thickness_mm": 35,
+            "total_weight_kg_m2": 9.8
+          },
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 10
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 10.3
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 10.7
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 11.5
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 12.3
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 13.1
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 13.9
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 14.2
+          },
+          {
+            "core_thickness_mm": 160,
+            "total_weight_kg_m2": 14.6
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.6,
+        "weights": [
+          {
+            "core_thickness_mm": 25,
+            "total_weight_kg_m2": 10.2
+          },
+          {
+            "core_thickness_mm": 30,
+            "total_weight_kg_m2": 10.4
+          },
+          {
+            "core_thickness_mm": 35,
+            "total_weight_kg_m2": 10.6
+          },
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 10.8
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 11.2
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 11.6
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 12.3
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 13.1
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 13.9
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 14.7
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 15.1
+          },
+          {
+            "core_thickness_mm": 160,
+            "total_weight_kg_m2": 15.5
+          }
+        ]
+      }
+    ],
     "certificate_type": "EPD",
-    "manufacturing": {
+    "shipping": {
       "lead_time": 15,
       "port_of_shipping": "GENOA",
       "shipping_time": 30,
-      "maximum_qty_per_40ft_container": null,
+      "shipping_container_capacity": [
+        {
+          "thickness_mm": 25,
+          "length_mm": 11900,
+          "max_panels": 200,
+          "max_m2": 2380
+        },
+        {
+          "thickness_mm": 30,
+          "length_mm": 11900,
+          "max_panels": 160,
+          "max_m2": 1904
+        },
+        {
+          "thickness_mm": 40,
+          "length_mm": 11900,
+          "max_panels": 122,
+          "max_m2": 1452
+        },
+        {
+          "thickness_mm": 50,
+          "length_mm": 11900,
+          "max_panels": 100,
+          "max_m2": 1190
+        },
+        {
+          "thickness_mm": 60,
+          "length_mm": 11900,
+          "max_panels": 84,
+          "max_m2": 1000
+        },
+        {
+          "thickness_mm": 80,
+          "length_mm": 11900,
+          "max_panels": 62,
+          "max_m2": 714
+        },
+        {
+          "thickness_mm": 100,
+          "length_mm": 11900,
+          "max_panels": 50,
+          "max_m2": 595
+        },
+        {
+          "thickness_mm": 120,
+          "length_mm": 11900,
+          "max_panels": 42,
+          "max_m2": 500
+        },
+        {
+          "thickness_mm": 150,
+          "length_mm": 11900,
+          "max_panels": 32,
+          "max_m2": 381
+        },
+        {
+          "thickness_mm": 160,
+          "length_mm": 11900,
+          "max_panels": 30,
+          "max_m2": 357
+        },
+        {
+          "thickness_mm": 180,
+          "length_mm": 11900,
+          "max_panels": 26,
+          "max_m2": 309
+        },
+        {
+          "thickness_mm": 200,
+          "length_mm": 11900,
+          "max_panels": 24,
+          "max_m2": 286
+        }
+      ],
       "shipping_instructions": "MODEL THICKNESS mm LENGHT mm # PANELS MAX m2\nGLOBEWALL 25 11900 200 2380\nGLOBEWALL 30 11900 160 1904\nGLOBEWALL 40 11900 122 1452\nGLOBEWALL 50 11900 100 1190\nGLOBEWALL 60 11900 84 1000\nGLOBEWALL 80 11900 62 714\nGLOBEWALL 100 11900 50 595\nGLOBEWALL 120 11900 42 500\nGLOBEWALL 150 11900 32 381\nGLOBEWALL 160 11900 30 357\nGLOBEWALL 180 11900 26 309\nGLOBEWALL 200 11900 24 286"
     },
     "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. The 200 mm thickness panel has a special interlocking joint. Other films and non-toxic coatings for occasional contact with food are available on request. Wall panels are designed to be laid vertically: the tongue-and-groove joint has been designed to ensure maximum thermal insulation and water tightness along all the joint lines between the panels. Horizontal installation, which differs from the recommended standard method, requires the design responsibility of a qualified professional, who will assess the feasibility conditions according to the specific conditions of the project (climate zone of the building, solar exposure for thermal expansion, type of the underlying structure and all the necessary parameters) proposing the most suitable technical solution for the intervention.",
     "sample_questions": [],
     "reviewed_by": "AI",
     "status": "Pending",
-    "review_date": "2025-02-07T16:49:19.715Z"
+    "review_date": "2025-02-19T09:38:51.511Z"
   },
   {
-    "product_name": "GlobeRoof Firestop",
-    "description": "Insulated fire-resistant roofing panel",
-    "images": [],
-    "core_types": {
-      "pur": {
-        "available": false,
-        "fire_rating": ""
-      },
-      "pir": {
-        "available": false,
-        "fire_rating": ""
-      },
-      "rockwool": {
-        "available": true,
-        "fire_rating": "A2,s1-d0; REI 30, REI 60, REI 90, REI 120"
-      }
-    },
-    "joint_type": "Visible",
-    "panel_width_mm": 1000,
-    "thermals": [
-      {
-        "thickness_mm": 50,
-        "watts_per_m2_kelvin": 0.74,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 60,
-        "watts_per_m2_kelvin": 0.63,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 80,
-        "watts_per_m2_kelvin": 0.48,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 100,
-        "watts_per_m2_kelvin": 0.39,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 120,
-        "watts_per_m2_kelvin": 0.33,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 150,
-        "watts_per_m2_kelvin": 0.27,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 200,
-        "watts_per_m2_kelvin": 0.2,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      }
-    ],
-    "sides": {
-      "external": {
-        "isFlat": false,
-        "isPerforated": false,
-        "materials": [
-          "Polystere",
-          "PVDF",
-          "PUR/PA",
-          "Plastisol",
-          "Galvanized Steel",
-          "Aluminum"
-        ],
-        "thicknesses_mm": [
-          0.6,
-          0.5
-        ],
-        "ribs": {
-          "count": 5,
-          "rib_type": "High",
-          "height_mm": 40,
-          "spacing_mm": 200,
-          "top_width_mm": 25,
-          "bottom_width_mm": 40
-        },
-        "colors": {
-          "standard": [],
-          "special": []
-        },
-        "coating": [
-          "Polystere",
-          "PVDF",
-          "PUR/PA"
-        ]
-      },
-      "internal": {
-        "isFlat": false,
-        "isPerforated": false,
-        "materials": [
-          "Polystere",
-          "PVDF",
-          "PUR/PA",
-          "Plastisol",
-          "Stainless Steel 316",
-          "Stainless Steel 304",
-          "Aluminum",
-          "Galvanized Steel"
-        ],
-        "thicknesses_mm": [
-          0.5,
-          0.6
-        ],
-        "ribs": {
-          "count": 29,
-          "rib_type": "Narrow",
-          "height_mm": 2,
-          "spacing_mm": 2,
-          "top_width_mm": 5,
-          "bottom_width_mm": 2
-        },
-        "colors": {
-          "standard": [],
-          "special": []
-        },
-        "coating": [
-          "Polystere",
-          "PVDF",
-          "PUR/PA"
-        ]
-      }
-    },
-    "load_bearing_chart": {
-      "single_bay": {
-        "configuration": "Standard Panel",
-        "supported": true,
-        "static_characteristics": [
-          {
-            "thickness_mm": 50,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 164,
-              "3": 73,
-              "4": 41,
-              "5": 26,
-              "6": 18,
-              "1.5": null,
-              "2.5": 105,
-              "3.5": 54,
-              "4.5": 32,
-              "5.5": 22
-            }
-          },
-          {
-            "thickness_mm": 60,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 192,
-              "3": 85,
-              "4": 48,
-              "5": 31,
-              "6": 21,
-              "1.5": null,
-              "2.5": 123,
-              "3.5": 63,
-              "4.5": 38,
-              "5.5": 25
-            }
-          },
-          {
-            "thickness_mm": 80,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 363,
-              "3": 161,
-              "4": 91,
-              "5": 58,
-              "6": 40,
-              "1.5": null,
-              "2.5": 232,
-              "3.5": 119,
-              "4.5": 72,
-              "5.5": 48
-            }
-          },
-          {
-            "thickness_mm": 100,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 404,
-              "3": 224,
-              "4": 126,
-              "5": 81,
-              "6": 56,
-              "1.5": null,
-              "2.5": 323,
-              "3.5": 165,
-              "4.5": 100,
-              "5.5": 67
-            }
-          },
-          {
-            "thickness_mm": 120,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 438,
-              "3": 265,
-              "4": 149,
-              "5": 96,
-              "6": 66,
-              "1.5": null,
-              "2.5": 351,
-              "3.5": 195,
-              "4.5": 118,
-              "5.5": 79
-            }
-          },
-          {
-            "thickness_mm": 150,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 460,
-              "3": 284,
-              "4": 161,
-              "5": 100,
-              "6": 69,
-              "1.5": null,
-              "2.5": 370,
-              "3.5": 215,
-              "4.5": 127,
-              "5.5": 83
-            }
-          },
-          {
-            "thickness_mm": 200,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 465,
-              "3": 290,
-              "4": 169,
-              "5": 112,
-              "6": 82,
-              "1.5": null,
-              "2.5": 375,
-              "3.5": 220,
-              "4.5": 149,
-              "5.5": 94
-            }
-          }
-        ]
-      },
-      "multiple_bay": {
-        "configuration": "Standard Panel",
-        "supported": true,
-        "static_characteristics": [
-          {
-            "thickness_mm": 50,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 171,
-              "3": 60,
-              "4": 28,
-              "5": 15,
-              "6": 9,
-              "1.5": null,
-              "2.5": 97,
-              "3.5": 40,
-              "4.5": 20,
-              "5.5": 12
-            }
-          },
-          {
-            "thickness_mm": 60,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 216,
-              "3": 79,
-              "4": 37,
-              "5": 20,
-              "6": 12,
-              "1.5": null,
-              "2.5": 125,
-              "3.5": 53,
-              "4.5": 27,
-              "5.5": 15
-            }
-          },
-          {
-            "thickness_mm": 80,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 281,
-              "3": 193,
-              "4": 99,
-              "5": 59,
-              "6": 38,
-              "1.5": null,
-              "2.5": 213,
-              "3.5": 135,
-              "4.5": 75,
-              "5.5": 47
-            }
-          },
-          {
-            "thickness_mm": 100,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 326,
-              "3": 205,
-              "4": 148,
-              "5": 89,
-              "6": 59,
-              "1.5": null,
-              "2.5": 252,
-              "3.5": 173,
-              "4.5": 113,
-              "5.5": 71
-            }
-          },
-          {
-            "thickness_mm": 120,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 359,
-              "3": 225,
-              "4": 164,
-              "5": 108,
-              "6": 61,
-              "1.5": null,
-              "2.5": 277,
-              "3.5": 189,
-              "4.5": 137,
-              "5.5": 87
-            }
-          },
-          {
-            "thickness_mm": 150,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 370,
-              "3": 239,
-              "4": 175,
-              "5": 120,
-              "6": 64,
-              "1.5": null,
-              "2.5": 288,
-              "3.5": 203,
-              "4.5": 149,
-              "5.5": 93
-            }
-          },
-          {
-            "thickness_mm": 200,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 378,
-              "3": 250,
-              "4": 186,
-              "5": 133,
-              "6": 78,
-              "1.5": null,
-              "2.5": 296,
-              "3.5": 215,
-              "4.5": 155,
-              "5.5": 105
-            }
-          }
-        ]
-      }
-    },
-    "certificate_type": "EPD",
-    "manufacturing": {
-      "lead_time": 20,
-      "port_of_shipping": "GENOA",
-      "shipping_time": 30,
-      "maximum_qty_per_40ft_container": 0,
-      "shipping_instructions": "MODEL\tTHICKNESS MM\tLENGHT MM\t# PANELS\tMAX M2\nGLOBEROOF FIRESTOP\t50\t11900\t66\t785,4\nGLOBEROOF FIRESTOP\t60\t11900\t56\t666,4\nGLOBEROOF FIRESTOP\t80\t11900\t46\t547,4\nGLOBEROOF FIRESTOP\t100\t11900\t38\t452,2\nGLOBEROOF FIRESTOP\t120\t11900\t32\t380,8\nGLOBEROOF FIRESTOP\t150\t11900\t26\t309,4\nGLOBEROOF FIRESTOP\t200\t11900\t18\t214,2\n\nNOTE: ALL ROCKWOOL PANELS WILL BE LOADED USING WOODEN SKIDS. THOSE SKIDS WILL HELP THE CUSTOMER TO UNLOAD THE CONTAINERS USING FORKLIFTS"
-    },
-    "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films and non-toxic coatings for occasional contact with food are available on request. The geometrical configuration of the panel, with its innovative joint, does not need any seals, the monolithic system is guaranteed by the perfect adhesion between the parts (fiberglass, metallic support, films) obtained with exclusive patented technology. In particularly critical situations, the system can be improved using of a simple expanded sealant joint. Mineral wool panels, due to their characteristics, have a considerable mass, it is suggested to evaluate their dimensions in order to avoid problems related to excessive weight during the handling and assembly phases.",
-    "sample_questions": [],
-    "reviewed_by": "AI",
-    "status": "Pending",
-    "review_date": "2025-02-04T11:39:03.235Z"
-  },
-  {
-    "product_name": "GlobeRoof Sun",
-    "description": "Insulated roofing panel for solar installations",
-    "images": [
-      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102444-Yri93SVCPfOfKz9VJxglGhWa8TiKQm.png"
-    ],
-    "core_types": {
-      "pur": {
-        "available": true,
-        "fire_rating": ""
-      },
-      "pir": {
-        "available": true,
-        "fire_rating": "B-s2,d0; B,s1-d0; REI 30 ON 100MM"
-      },
-      "rockwool": {
-        "available": false,
-        "fire_rating": ""
-      }
-    },
-    "joint_type": "Visible",
-    "panel_width_mm": 1000,
-    "thermals": [
-      {
-        "thickness_mm": 30,
-        "watts_per_m2_kelvin": 0.73,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 7.78
-      },
-      {
-        "thickness_mm": 40,
-        "watts_per_m2_kelvin": 0.58,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 9.79
-      },
-      {
-        "thickness_mm": 50,
-        "watts_per_m2_kelvin": 0.44,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 12.9
-      },
-      {
-        "thickness_mm": 60,
-        "watts_per_m2_kelvin": 0.37,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 15.35
-      },
-      {
-        "thickness_mm": 80,
-        "watts_per_m2_kelvin": 0.26,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 21.84
-      },
-      {
-        "thickness_mm": 100,
-        "watts_per_m2_kelvin": 0.2,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 28.39
-      },
-      {
-        "thickness_mm": 120,
-        "watts_per_m2_kelvin": 0.17,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 33.4
-      },
-      {
-        "thickness_mm": 140,
-        "watts_per_m2_kelvin": 0.14,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 40.56
-      }
-    ],
-    "sides": {
-      "external": {
-        "isFlat": false,
-        "isPerforated": false,
-        "materials": [
-          "Prepainted or plasticized galvanized steel",
-          "Aluzinc",
-          "stainless steel",
-          "natural, prepainted or embossed aluminum",
-          "Galvanized Steel",
-          "Aluminum"
-        ],
-        "thicknesses_mm": [],
-        "ribs": {
-          "count": 4,
-          "rib_type": "High",
-          "height_mm": 35,
-          "spacing_mm": 250,
-          "top_width_mm": 30,
-          "bottom_width_mm": 48
-        },
-        "colors": {
-          "standard": [
-            "Ral 9002",
-            "Ral 9010",
-            "Ral 3009",
-            "Ral 8017"
-          ],
-          "special": [
-            "Ral 9006",
-            "Ral 9007",
-            "Ral 7012",
-            "Ral 7016"
-          ]
-        },
-        "coating": [
-          "Polystere",
-          "PVDF",
-          "PUR/PA",
-          "Plastisol"
-        ]
-      },
-      "internal": {
-        "isFlat": false,
-        "isPerforated": false,
-        "materials": [
-          "Prepainted or plasticized galvanized steel",
-          "Aluzinc",
-          "stainless steel",
-          "natural, prepainted or embossed aluminum",
-          "Galvanized Steel",
-          "Aluminum",
-          "Stainless Steel 304",
-          "Stainless Steel 316"
-        ],
-        "thicknesses_mm": [],
-        "ribs": {
-          "count": 29,
-          "rib_type": "Narrow",
-          "height_mm": 2,
-          "spacing_mm": 2,
-          "top_width_mm": 5,
-          "bottom_width_mm": 2
-        },
-        "colors": {
-          "standard": [
-            "Ral 9002",
-            "Ral 9010"
-          ],
-          "special": []
-        },
-        "coating": [
-          "Polystere",
-          "PVDF",
-          "PUR/PA",
-          "Plastisol"
-        ]
-      }
-    },
-    "load_bearing_chart": {
-      "single_bay": {
-        "configuration": "Standard Panel",
-        "supported": true,
-        "static_characteristics": [
-          {
-            "thickness_mm": 30,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 190,
-              "3": 66,
-              "4": 30,
-              "5": 16,
-              "6": null,
-              "1.5": 416,
-              "2.5": 106,
-              "3.5": 44,
-              "4.5": 22,
-              "5.5": 12
-            }
-          },
-          {
-            "thickness_mm": 40,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 226,
-              "3": 86,
-              "4": 43,
-              "5": 24,
-              "6": 15,
-              "1.5": 470,
-              "2.5": 132,
-              "3.5": 60,
-              "4.5": 32,
-              "5.5": 19
-            }
-          },
-          {
-            "thickness_mm": 50,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 261,
-              "3": 107,
-              "4": 57,
-              "5": 34,
-              "6": 21,
-              "1.5": 522,
-              "2.5": 159,
-              "3.5": 76,
-              "4.5": 43,
-              "5.5": 26
-            }
-          },
-          {
-            "thickness_mm": 60,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 296,
-              "3": 127,
-              "4": 70,
-              "5": 43,
-              "6": 28,
-              "1.5": 573,
-              "2.5": 185,
-              "3.5": 93,
-              "4.5": 55,
-              "5.5": 35
-            }
-          },
-          {
-            "thickness_mm": 80,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 365,
-              "3": 169,
-              "4": 99,
-              "5": 64,
-              "6": 43,
-              "1.5": 672,
-              "2.5": 237,
-              "3.5": 127,
-              "4.5": 79,
-              "5.5": 52
-            }
-          },
-          {
-            "thickness_mm": 100,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 443,
-              "3": 111,
-              "4": 128,
-              "5": 85,
-              "6": 60,
-              "1.5": 712,
-              "2.5": 289,
-              "3.5": 162,
-              "4.5": 104,
-              "5.5": 71
-            }
-          },
-          {
-            "thickness_mm": 120,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 501,
-              "3": 253,
-              "4": 158,
-              "5": 108,
-              "6": 77,
-              "1.5": 713,
-              "2.5": 341,
-              "3.5": 196,
-              "4.5": 129,
-              "5.5": 91
-            }
-          },
-          {
-            "thickness_mm": 140,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 536,
-              "3": 295,
-              "4": 188,
-              "5": 130,
-              "6": 95,
-              "1.5": 714,
-              "2.5": 393,
-              "3.5": 232,
-              "4.5": 155,
-              "5.5": 111
-            }
-          }
-        ]
-      },
-      "multiple_bay": {
-        "configuration": "Standard Panel",
-        "supported": true,
-        "static_characteristics": [
-          {
-            "thickness_mm": 30,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 451,
-              "3": 204,
-              "4": 111,
-              "5": 70,
-              "6": 48,
-              "1.5": 615,
-              "2.5": 299,
-              "3.5": 147,
-              "4.5": 87,
-              "5.5": 57
-            }
-          },
-          {
-            "thickness_mm": 40,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 471,
-              "3": 265,
-              "4": 144,
-              "5": 91,
-              "6": 62,
-              "1.5": 643,
-              "2.5": 371,
-              "3.5": 191,
-              "4.5": 113,
-              "5.5": 74
-            }
-          },
-          {
-            "thickness_mm": 50,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 492,
-              "3": 318,
-              "4": 178,
-              "5": 111,
-              "6": 76,
-              "1.5": 671,
-              "2.5": 386,
-              "3.5": 236,
-              "4.5": 139,
-              "5.5": 91
-            }
-          },
-          {
-            "thickness_mm": 60,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 512,
-              "3": 331,
-              "4": 212,
-              "5": 133,
-              "6": 91,
-              "1.5": 690,
-              "2.5": 402,
-              "3.5": 281,
-              "4.5": 165,
-              "5.5": 109
-            }
-          },
-          {
-            "thickness_mm": 80,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 546,
-              "3": 357,
-              "4": 262,
-              "5": 175,
-              "6": 120,
-              "1.5": 714,
-              "2.5": 435,
-              "3.5": 302,
-              "4.5": 219,
-              "5.5": 144
-            }
-          },
-          {
-            "thickness_mm": 100,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 557,
-              "3": 374,
-              "4": 274,
-              "5": 212,
-              "6": 149,
-              "1.5": 732,
-              "2.5": 455,
-              "3.5": 314,
-              "4.5": 241,
-              "5.5": 179
-            }
-          },
-          {
-            "thickness_mm": 120,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 558,
-              "3": 376,
-              "4": 275,
-              "5": 218,
-              "6": 175,
-              "1.5": 730,
-              "2.5": 456,
-              "3.5": 318,
-              "4.5": 245,
-              "5.5": 196
-            }
-          },
-          {
-            "thickness_mm": 140,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 559,
-              "3": 378,
-              "4": 278,
-              "5": 220,
-              "6": 179,
-              "1.5": 728,
-              "2.5": 457,
-              "3.5": 320,
-              "4.5": 247,
-              "5.5": 198
-            }
-          }
-        ]
-      }
-    },
-    "certificate_type": "EPD, REI",
-    "manufacturing": {
-      "lead_time": 30,
-      "port_of_shipping": "GENOA",
-      "shipping_time": 30,
-      "maximum_qty_per_40ft_container": null,
-      "shipping_instructions": ""
-    },
-    "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films are available on request. The fixing is the most important element of GLOBEROOF SUN Allows to realize a ventilated roof without drilling metal insulated panels and maintaining appropriate mechanical characteristics of resistance to stress. Dryfix™™, (product name is inspired by its properties: fixing dry and safe) without holes can connect tiles, plates, solar thermal panels or photovoltaic modules. It does not need screws, bolts, rivets, self-drilling screws with rubber seals.",
-    "sample_questions": [],
-    "reviewed_by": "AI",
-    "status": "Pending",
-    "review_date": "2025-02-05T16:30:39.222Z"
-  },
-  {
-    "product_name": "GlobeWall Flat",
-    "description": "",
-    "images": [],
-    "core_types": {
-      "pur": {
-        "available": true,
-        "fire_rating": ""
-      },
-      "pir": {
-        "available": true,
-        "fire_rating": ""
-      },
-      "rockwool": {
-        "available": false,
-        "fire_rating": ""
-      }
-    },
-    "joint_type": "",
-    "panel_width_mm": null,
-    "thermals": [],
-    "sides": {
-      "external": {
-        "isFlat": false,
-        "isPerforated": false,
-        "materials": null,
-        "thicknesses_mm": null,
-        "ribs": {
-          "count": null,
-          "rib_type": "High",
-          "height_mm": null,
-          "spacing_mm": null,
-          "top_width_mm": null,
-          "bottom_width_mm": null
-        },
-        "colors": {
-          "standard": [],
-          "special": []
-        },
-        "coating": []
-      },
-      "internal": {
-        "isFlat": false,
-        "isPerforated": false,
-        "materials": null,
-        "thicknesses_mm": null,
-        "ribs": {
-          "count": null,
-          "rib_type": "High",
-          "height_mm": null,
-          "spacing_mm": null,
-          "top_width_mm": null,
-          "bottom_width_mm": null
-        },
-        "colors": {
-          "standard": [],
-          "special": []
-        },
-        "coating": []
-      }
-    },
-    "load_bearing_chart": {
-      "single_bay": {
-        "configuration": "Standard Panel",
-        "supported": false,
-        "static_characteristics": []
-      },
-      "multiple_bay": {
-        "configuration": "Standard Panel",
-        "supported": false,
-        "static_characteristics": []
-      }
-    },
-    "certificate_type": "",
-    "manufacturing": {
-      "lead_time": null,
-      "port_of_shipping": "",
-      "shipping_time": null,
-      "maximum_qty_per_40ft_container": null,
-      "shipping_instructions": ""
-    },
-    "additional_notes": "",
-    "sample_questions": [],
-    "reviewed_by": "AI",
-    "status": "Pending",
-    "review_date": "2025-01-31T17:12:08.489Z"
-  },
-  {
-    "product_name": "Globeroof Eco",
-    "description": "Insulated roofing and wall panel for agriculture and breeding",
-    "images": [
-      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203101927-yq8amITFou6oDJaTX8s2jgGRgv46jj.png"
-    ],
-    "core_types": {
-      "pur": {
-        "available": true,
-        "fire_rating": "None"
-      },
-      "pir": {
-        "available": false,
-        "fire_rating": ""
-      },
-      "rockwool": {
-        "available": false,
-        "fire_rating": ""
-      }
-    },
-    "joint_type": "Visible",
-    "panel_width_mm": 1000,
-    "thermals": [
-      {
-        "thickness_mm": 20,
-        "watts_per_m2_kelvin": 0.77,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 7.37
-      },
-      {
-        "thickness_mm": 30,
-        "watts_per_m2_kelvin": 0.73,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 7.78
-      },
-      {
-        "thickness_mm": 40,
-        "watts_per_m2_kelvin": 0.58,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 9.79
-      },
-      {
-        "thickness_mm": 50,
-        "watts_per_m2_kelvin": 0.44,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 12.9
-      },
-      {
-        "thickness_mm": 60,
-        "watts_per_m2_kelvin": 0.37,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 15.35
-      },
-      {
-        "thickness_mm": 80,
-        "watts_per_m2_kelvin": 0.26,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 21.84
-      },
-      {
-        "thickness_mm": 100,
-        "watts_per_m2_kelvin": 0.2,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 28.39
-      },
-      {
-        "thickness_mm": 120,
-        "watts_per_m2_kelvin": 0.17,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 33.4
-      }
-    ],
-    "sides": {
-      "external": {
-        "isFlat": false,
-        "isPerforated": false,
-        "materials": [
-          "Polystere",
-          "PVDF",
-          "PUR/PA",
-          "Plastisol",
-          "Galvanized Steel",
-          "Aluminum"
-        ],
-        "thicknesses_mm": [
-          0.4,
-          0.5,
-          0.6
-        ],
-        "ribs": {
-          "count": 5,
-          "rib_type": "High",
-          "height_mm": 40,
-          "spacing_mm": 250,
-          "top_width_mm": 25,
-          "bottom_width_mm": 40
-        },
-        "colors": {
-          "standard": [],
-          "special": []
-        },
-        "coating": [
-          "Polystere",
-          "PVDF",
-          "PUR/PA"
-        ]
-      },
-      "internal": {
-        "isFlat": true,
-        "isPerforated": false,
-        "materials": [
-          "bitumen felt membrane (KAPPA 3 е KAPPA 5)",
-          "aluminium thickness (KAPPA 3 AGRI e KAPPA 5 AGRI)",
-          "fiberglass"
-        ],
-        "thicknesses_mm": [],
-        "ribs": {
-          "count": null,
-          "rib_type": null,
-          "height_mm": null,
-          "spacing_mm": null,
-          "top_width_mm": null,
-          "bottom_width_mm": null
-        },
-        "colors": {
-          "standard": [],
-          "special": []
-        },
-        "coating": []
-      }
-    },
-    "load_bearing_chart": {
-      "single_bay": {
-        "configuration": "Standard Panel",
-        "supported": true,
-        "static_characteristics": [
-          {
-            "thickness_mm": 0.5,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 133,
-              "3": null,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 235,
-              "2.5": 74,
-              "3.5": null,
-              "4.5": null,
-              "5.5": null
-            }
-          },
-          {
-            "thickness_mm": 0.6,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 155,
-              "3": 49,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 280,
-              "2.5": 87,
-              "3.5": null,
-              "4.5": null,
-              "5.5": null
-            }
-          },
-          {
-            "thickness_mm": 0.8,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 208,
-              "3": 65,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 366,
-              "2.5": 113,
-              "3.5": null,
-              "4.5": null,
-              "5.5": null
-            }
-          },
-          {
-            "thickness_mm": 1,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 260,
-              "3": 82,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 455,
-              "2.5": 143,
-              "3.5": null,
-              "4.5": null,
-              "5.5": null
-            }
-          }
-        ]
-      },
-      "multiple_bay": {
-        "configuration": "Standard Panel",
-        "supported": true,
-        "static_characteristics": [
-          {
-            "thickness_mm": 0.5,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 166,
-              "3": 70,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 290,
-              "2.5": 107,
-              "3.5": null,
-              "4.5": null,
-              "5.5": null
-            }
-          },
-          {
-            "thickness_mm": 0.6,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 194,
-              "3": 84,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 344,
-              "2.5": 125,
-              "3.5": 52,
-              "4.5": null,
-              "5.5": null
-            }
-          },
-          {
-            "thickness_mm": 0.8,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 260,
-              "3": 110,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 457,
-              "2.5": 166,
-              "3.5": 69,
-              "4.5": null,
-              "5.5": null
-            }
-          },
-          {
-            "thickness_mm": 1,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 325,
-              "3": 137,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 570,
-              "2.5": 207,
-              "3.5": 87,
-              "4.5": null,
-              "5.5": null
-            }
-          }
-        ]
-      }
-    },
-    "certificate_type": "EPD",
-    "manufacturing": {
-      "lead_time": 15,
-      "port_of_shipping": "GENOA",
-      "shipping_time": 30,
-      "maximum_qty_per_40ft_container": null,
-      "shipping_instructions": "MODEL THICKNESS mm LENGHT mm # PANELS MAX m2\nGLOBEROOF ECO 30 11900 100 1190\nGLOBEROOF ECO 40 11900 84 1000\nGLOBEROOF ECO 50 11900 72 857\nGLOBEROOF ECO 60 11900 62 738\nGLOBEROOF ECO 80 11900 50 595\nGLOBEROOF ECO100 11900 42 500\nGLOBEROOF ECO 120 11900 36 428\nGLOBEROOF ECO 150 11900 28 333\nGLOBEROOF ECO 160 11900 24 286\nGLOBEROOF ECO 180 11900 24 286\nGLOBEROOF ECO 200 11900 20 238"
-    },
-    "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films are available on request. Bitumen felt membrane isn't suitable for ceiling applications because it could be not uniform as tone colour and imperfect surface with aesthetic problems.",
-    "sample_questions": [],
-    "reviewed_by": "AI",
-    "status": "Pending",
-    "review_date": "2025-02-05T16:19:31.788Z"
-  },
-  {
-    "product_name": "Globeroof Mediterranean",
-    "description": "Insulated roofing panel with a Mediterranean tile profile",
-    "images": [
-      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102021-fK9GYJJSn8Dp5hAbhIdTiaPsqbXgOA.png",
-      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102035-k3mmyBQ3KvHVAQJOCWe4EIFp4puUTr.png",
-      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102056-ET8Y6Ms9YgTiZMPceik6HCLfJvyOwR.png",
-      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102107-OIxFnuxCZZSCDJxhgOyw2Wg6HQiPHD.png",
-      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102119-8fxa15LuDZWT3qfpT4qjOjCGfAYNFa.png",
-      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102144-eAkwVs0lIZ0I8HxgtyESdRm038wdSg.png"
-    ],
-    "core_types": {
-      "pur": {
-        "available": true,
-        "fire_rating": ""
-      },
-      "pir": {
-        "available": true,
-        "fire_rating": "B,S2-D0"
-      },
-      "rockwool": {
-        "available": false,
-        "fire_rating": ""
-      }
-    },
-    "joint_type": "Visible",
-    "panel_width_mm": 1000,
-    "thermals": [
-      {
-        "thickness_mm": 40,
-        "watts_per_m2_kelvin": 0.58,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 9.79
-      },
-      {
-        "thickness_mm": 60,
-        "watts_per_m2_kelvin": 0.37,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 15.35
-      },
-      {
-        "thickness_mm": 80,
-        "watts_per_m2_kelvin": 0.26,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 21.84
-      },
-      {
-        "thickness_mm": 100,
-        "watts_per_m2_kelvin": 0.2,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": 28.39
-      }
-    ],
-    "sides": {
-      "external": {
-        "isFlat": false,
-        "isPerforated": false,
-        "materials": [
-          "Polystere",
-          "PUR/PA",
-          "Galvanized Steel"
-        ],
-        "thicknesses_mm": [
-          0.5,
-          0.6
-        ],
-        "ribs": {
-          "count": 5,
-          "rib_type": "Tile",
-          "height_mm": 40,
-          "spacing_mm": 166.66,
-          "top_width_mm": null,
-          "bottom_width_mm": 40
-        },
-        "colors": {
-          "standard": [
-            "RAL 8004 MAT"
-          ],
-          "special": []
-        },
-        "coating": [
-          "Polystere",
-          "PVDF",
-          "PUR/PA"
-        ]
-      },
-      "internal": {
-        "isFlat": true,
-        "isPerforated": false,
-        "materials": [
-          "bitumen felt membrane",
-          "aluminium"
-        ],
-        "thicknesses_mm": [
-          0.08
-        ],
-        "ribs": {
-          "count": null,
-          "rib_type": null,
-          "height_mm": null,
-          "spacing_mm": null,
-          "top_width_mm": null,
-          "bottom_width_mm": null
-        },
-        "colors": {
-          "standard": [],
-          "special": []
-        },
-        "coating": []
-      }
-    },
-    "load_bearing_chart": {
-      "single_bay": {
-        "configuration": "Standard Panel",
-        "supported": true,
-        "static_characteristics": [
-          {
-            "thickness_mm": 40,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 126,
-              "3": 27,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 154,
-              "2.5": 51,
-              "3.5": null,
-              "4.5": null,
-              "5.5": null
-            }
-          },
-          {
-            "thickness_mm": 60,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 148,
-              "3": 31,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 182,
-              "2.5": 60,
-              "3.5": null,
-              "4.5": null,
-              "5.5": null
-            }
-          },
-          {
-            "thickness_mm": 80,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 176,
-              "3": 37,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 216,
-              "2.5": 71,
-              "3.5": null,
-              "4.5": null,
-              "5.5": null
-            }
-          },
-          {
-            "thickness_mm": 100,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 209,
-              "3": 44,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 257,
-              "2.5": 84,
-              "3.5": null,
-              "4.5": null,
-              "5.5": null
-            }
-          }
-        ]
-      },
-      "multiple_bay": {
-        "configuration": "Standard Panel",
-        "supported": true,
-        "static_characteristics": [
-          {
-            "thickness_mm": 40,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 135,
-              "3": 35,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 166,
-              "2.5": 60,
-              "3.5": null,
-              "4.5": null,
-              "5.5": null
-            }
-          },
-          {
-            "thickness_mm": 60,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 158,
-              "3": 36,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 193,
-              "2.5": 71,
-              "3.5": null,
-              "4.5": null,
-              "5.5": null
-            }
-          },
-          {
-            "thickness_mm": 80,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 185,
-              "3": 43,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 231,
-              "2.5": 79,
-              "3.5": null,
-              "4.5": null,
-              "5.5": null
-            }
-          },
-          {
-            "thickness_mm": 100,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 218,
-              "3": 50,
-              "4": null,
-              "5": null,
-              "6": null,
-              "1.5": 268,
-              "2.5": 95,
-              "3.5": null,
-              "4.5": null,
-              "5.5": null
-            }
-          }
-        ]
-      }
-    },
-    "certificate_type": "EPD",
-    "manufacturing": {
-      "lead_time": null,
-      "port_of_shipping": "",
-      "shipping_time": null,
-      "maximum_qty_per_40ft_container": null,
-      "shipping_instructions": "MODEL THICKNESS mm LENGHT mm # PANELS MAX m2\nGloberoof Mediterranean 40MM 11900 ? 762,82\nGloberoof Mediterranean 60MM 11900 ? 595\nGloberoof Mediterranean 80MM 11900 ? 452,2\nGloberoof Mediterranean 100MM 11900 ? 452,2"
-    },
-    "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films and non-toxic coatings for occasional contact with food are available on request.",
-    "sample_questions": [],
-    "reviewed_by": "AI",
-    "status": "Pending",
-    "review_date": "2025-02-05T16:20:57.672Z"
-  },
-  {
-    "product_name": "Globeroof Noisestop",
-    "description": "Insulated sound-absorbing roofing panel",
-    "images": [
-      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102323-3VI0wzOySaASi1r0hqVMyKtEOJmCOk.png",
-      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102345-NCtvHGX66tCLhnjihgiIANwvdxBtOG.png"
-    ],
-    "core_types": {
-      "pur": {
-        "available": false,
-        "fire_rating": ""
-      },
-      "pir": {
-        "available": false,
-        "fire_rating": ""
-      },
-      "rockwool": {
-        "available": true,
-        "fire_rating": "A1,S2-D0"
-      }
-    },
-    "joint_type": "",
-    "panel_width_mm": 1000,
-    "thermals": [
-      {
-        "thickness_mm": 50,
-        "watts_per_m2_kelvin": 0.74,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 60,
-        "watts_per_m2_kelvin": 0.63,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 80,
-        "watts_per_m2_kelvin": 0.48,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 100,
-        "watts_per_m2_kelvin": 0.39,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 120,
-        "watts_per_m2_kelvin": 0.33,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 150,
-        "watts_per_m2_kelvin": 0.27,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 200,
-        "watts_per_m2_kelvin": 0.2,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      }
-    ],
-    "sides": {
-      "external": {
-        "isFlat": false,
-        "isPerforated": false,
-        "materials": [
-          "Polystere",
-          "PVDF",
-          "PUR/PA",
-          "Plastisol",
-          "Galvanized Steel",
-          "Aluminum"
-        ],
-        "thicknesses_mm": [
-          0.6,
-          0.5
-        ],
-        "ribs": {
-          "count": 4,
-          "rib_type": "High",
-          "height_mm": 40,
-          "spacing_mm": 200,
-          "top_width_mm": 25,
-          "bottom_width_mm": 40
-        },
-        "colors": {
-          "standard": [],
-          "special": []
-        },
-        "coating": [
-          "Polystere",
-          "PVDF",
-          "PUR/PA"
-        ]
-      },
-      "internal": {
-        "isFlat": false,
-        "isPerforated": true,
-        "materials": [
-          "galvanized steel",
-          "galvanized prepainted or plastified steel",
-          "stainless steel",
-          "natural, prepainted or embossed aluminium",
-          "copper",
-          "Galvanized Steel",
-          "Aluminum",
-          "Stainless Steel 304",
-          "Stainless Steel 316"
-        ],
-        "thicknesses_mm": [
-          0.5
-        ],
-        "ribs": {
-          "count": 29,
-          "rib_type": "Narrow",
-          "height_mm": 2,
-          "spacing_mm": 2,
-          "top_width_mm": 5,
-          "bottom_width_mm": 2
-        },
-        "colors": {
-          "standard": [],
-          "special": [
-            ""
-          ]
-        },
-        "coating": [
-          "Polystere",
-          "PVDF",
-          "PUR/PA"
-        ]
-      }
-    },
-    "load_bearing_chart": {
-      "single_bay": {
-        "configuration": "Standard Panel",
-        "supported": true,
-        "static_characteristics": [
-          {
-            "thickness_mm": 50,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 78,
-              "3": 35,
-              "4": 19,
-              "5": 12,
-              "6": 9,
-              "1.5": null,
-              "2.5": 50,
-              "3.5": 25,
-              "4.5": 15,
-              "5.5": 10
-            }
-          },
-          {
-            "thickness_mm": 60,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 91,
-              "3": 40,
-              "4": 23,
-              "5": 15,
-              "6": 10,
-              "1.5": null,
-              "2.5": 58,
-              "3.5": 30,
-              "4.5": 18,
-              "5.5": 12
-            }
-          },
-          {
-            "thickness_mm": 80,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 221,
-              "3": 98,
-              "4": 55,
-              "5": 35,
-              "6": 25,
-              "1.5": null,
-              "2.5": 141,
-              "3.5": 72,
-              "4.5": 44,
-              "5.5": 29
-            }
-          },
-          {
-            "thickness_mm": 100,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 244,
-              "3": 108,
-              "4": 61,
-              "5": 39,
-              "6": 27,
-              "1.5": null,
-              "2.5": 156,
-              "3.5": 80,
-              "4.5": 48,
-              "5.5": 32
-            }
-          },
-          {
-            "thickness_mm": 120,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 289,
-              "3": 128,
-              "4": 72,
-              "5": 46,
-              "6": 32,
-              "1.5": null,
-              "2.5": 185,
-              "3.5": 94,
-              "4.5": 57,
-              "5.5": 38
-            }
-          },
-          {
-            "thickness_mm": 150,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 306,
-              "3": 136,
-              "4": 76,
-              "5": 49,
-              "6": 34,
-              "1.5": null,
-              "2.5": 196,
-              "3.5": 100,
-              "4.5": 60,
-              "5.5": 40
-            }
-          },
-          {
-            "thickness_mm": 200,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 324,
-              "3": 144,
-              "4": 81,
-              "5": 52,
-              "6": 36,
-              "1.5": null,
-              "2.5": 208,
-              "3.5": 106,
-              "4.5": 64,
-              "5.5": 43
-            }
-          }
-        ]
-      },
-      "multiple_bay": {
-        "configuration": "Standard Panel",
-        "supported": true,
-        "static_characteristics": [
-          {
-            "thickness_mm": 50,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 82,
-              "3": 36,
-              "4": 20,
-              "5": 13,
-              "6": 9,
-              "1.5": null,
-              "2.5": 52,
-              "3.5": 27,
-              "4.5": 16,
-              "5.5": 11
-            }
-          },
-          {
-            "thickness_mm": 60,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 96,
-              "3": 43,
-              "4": 24,
-              "5": 15,
-              "6": 11,
-              "1.5": null,
-              "2.5": 61,
-              "3.5": 31,
-              "4.5": 19,
-              "5.5": 13
-            }
-          },
-          {
-            "thickness_mm": 80,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 232,
-              "3": 103,
-              "4": 58,
-              "5": 37,
-              "6": 26,
-              "1.5": null,
-              "2.5": 149,
-              "3.5": 76,
-              "4.5": 46,
-              "5.5": 31
-            }
-          },
-          {
-            "thickness_mm": 100,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 256,
-              "3": 114,
-              "4": 64,
-              "5": 41,
-              "6": 28,
-              "1.5": null,
-              "2.5": 164,
-              "3.5": 84,
-              "4.5": 51,
-              "5.5": 34
-            }
-          },
-          {
-            "thickness_mm": 120,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 304,
-              "3": 135,
-              "4": 76,
-              "5": 49,
-              "6": 34,
-              "1.5": null,
-              "2.5": 194,
-              "3.5": 99,
-              "4.5": 60,
-              "5.5": 40
-            }
-          },
-          {
-            "thickness_mm": 150,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 324,
-              "3": 144,
-              "4": 81,
-              "5": 52,
-              "6": 36,
-              "1.5": null,
-              "2.5": 208,
-              "3.5": 106,
-              "4.5": 64,
-              "5.5": 43
-            }
-          },
-          {
-            "thickness_mm": 200,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 344,
-              "3": 153,
-              "4": 86,
-              "5": 55,
-              "6": 38,
-              "1.5": null,
-              "2.5": 220,
-              "3.5": 112,
-              "4.5": 68,
-              "5.5": 45
-            }
-          }
-        ]
-      }
-    },
-    "certificate_type": "EPD, REI 120",
-    "manufacturing": {
-      "lead_time": 20,
-      "port_of_shipping": "GENOA",
-      "shipping_time": 30,
-      "maximum_qty_per_40ft_container": null,
-      "shipping_instructions": "MODEL\tTHICKNESS MM\tLENGHT MM\t# PANELS\tMAX M2\nGLOBEROOF FIRESTOP\t50\t11900\t66\t785,4\nGLOBEROOF FIRESTOP\t60\t11900\t56\t666,4\nGLOBEROOF FIRESTOP\t80\t11900\t46\t547,4\nGLOBEROOF FIRESTOP\t100\t11900\t38\t452,2\nGLOBEROOF FIRESTOP\t120\t11900\t32\t380,8\nGLOBEROOF FIRESTOP\t150\t11900\t26\t309,4\nGLOBEROOF FIRESTOP\t200\t11900\t18\t214,2\n\nNOTE: ALL ROCKWOOL PANELS WILL BE LOADED USING WOODEN SKIDS. THOSE SKIDS WILL HELP THE CUSTOMER TO UNLOAD THE CONTAINERS USING FORKLIFTS"
-    },
-    "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films and non-toxic coatings for occasional contact with food are available on request. The geometrical configuration of the panel, with its innovative joint, does not need any seals, the monolithic system is guaranteed by the perfect adhesion between the parts (fiberglass, metallic support, films) obtained with exclusive patented technology. In particularly critical situations, the system can be improved using of a simple expanded sealant joint. Loading charts are calculated with standard mineral wool density.",
-    "sample_questions": [],
-    "reviewed_by": "AI",
-    "status": "Pending",
-    "review_date": "2025-02-03T09:24:13.422Z"
-  },
-  {
-    "product_name": "Globeroof Sun",
-    "description": "Insulated roofing panel for solar installations",
-    "images": [
-      "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102444-zbV5ZQesD9VY2Cxj47Y37133hUCFUg.png"
-    ],
-    "core_types": {
-      "pur": {
-        "available": true,
-        "fire_rating": ""
-      },
-      "pir": {
-        "available": true,
-        "fire_rating": "B-s2,d0"
-      },
-      "rockwool": {
-        "available": false,
-        "fire_rating": ""
-      }
-    },
-    "joint_type": "",
-    "panel_width_mm": 1000,
-    "thermals": [
-      {
-        "thickness_mm": 30,
-        "watts_per_m2_kelvin": 0.69,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 40,
-        "watts_per_m2_kelvin": 0.53,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 50,
-        "watts_per_m2_kelvin": 0.43,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 60,
-        "watts_per_m2_kelvin": 0.36,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 80,
-        "watts_per_m2_kelvin": 0.27,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 100,
-        "watts_per_m2_kelvin": 0.22,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 120,
-        "watts_per_m2_kelvin": 0.18,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      },
-      {
-        "thickness_mm": 140,
-        "watts_per_m2_kelvin": 0.16,
-        "btu_per_hour_per_ft2_fahrenheit": null,
-        "r_value": null
-      }
-    ],
-    "sides": {
-      "external": {
-        "isFlat": false,
-        "isPerforated": false,
-        "materials": [
-          "Prepainted or plasticized galvanized steel",
-          "Aluzinc",
-          "stainless steel",
-          "natural, prepainted or embossed aluminum",
-          "Galvanized Steel",
-          "Aluminum"
-        ],
-        "thicknesses_mm": [],
-        "ribs": {
-          "count": 4,
-          "rib_type": "Large",
-          "height_mm": 32,
-          "spacing_mm": 285,
-          "top_width_mm": 29,
-          "bottom_width_mm": 48
-        },
-        "colors": {
-          "standard": [],
-          "special": []
-        },
-        "coating": [
-          "Polystere",
-          "PVDF",
-          "PUR/PA"
-        ]
-      },
-      "internal": {
-        "isFlat": false,
-        "isPerforated": false,
-        "materials": [
-          "Prepainted or plasticized galvanized steel",
-          "Aluzinc",
-          "stainless steel",
-          "natural, prepainted or embossed aluminum",
-          "Galvanized Steel",
-          "Aluminum"
-        ],
-        "thicknesses_mm": [],
-        "ribs": {
-          "count": 29,
-          "rib_type": "Narrow",
-          "height_mm": 2,
-          "spacing_mm": 2,
-          "top_width_mm": 5,
-          "bottom_width_mm": 2
-        },
-        "colors": {
-          "standard": [],
-          "special": []
-        },
-        "coating": [
-          "Polystere",
-          "PVDF",
-          "PUR/PA"
-        ]
-      }
-    },
-    "load_bearing_chart": {
-      "single_bay": {
-        "configuration": "Standard Panel",
-        "supported": true,
-        "static_characteristics": [
-          {
-            "thickness_mm": 30,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 190,
-              "3": 66,
-              "4": 30,
-              "5": 16,
-              "6": null,
-              "1.5": 416,
-              "2.5": 106,
-              "3.5": 44,
-              "4.5": 22,
-              "5.5": 12
-            }
-          },
-          {
-            "thickness_mm": 40,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 226,
-              "3": 86,
-              "4": 43,
-              "5": 24,
-              "6": 15,
-              "1.5": 470,
-              "2.5": 132,
-              "3.5": 60,
-              "4.5": 32,
-              "5.5": 19
-            }
-          },
-          {
-            "thickness_mm": 50,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 261,
-              "3": 107,
-              "4": 57,
-              "5": 34,
-              "6": 21,
-              "1.5": 522,
-              "2.5": 159,
-              "3.5": 76,
-              "4.5": 43,
-              "5.5": 26
-            }
-          },
-          {
-            "thickness_mm": 60,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 296,
-              "3": 127,
-              "4": 70,
-              "5": 43,
-              "6": 28,
-              "1.5": 573,
-              "2.5": 185,
-              "3.5": 93,
-              "4.5": 55,
-              "5.5": 35
-            }
-          },
-          {
-            "thickness_mm": 80,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 365,
-              "3": 169,
-              "4": 99,
-              "5": 64,
-              "6": 43,
-              "1.5": 672,
-              "2.5": 237,
-              "3.5": 127,
-              "4.5": 79,
-              "5.5": 52
-            }
-          },
-          {
-            "thickness_mm": 100,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 443,
-              "3": 111,
-              "4": 128,
-              "5": 85,
-              "6": 60,
-              "1.5": 712,
-              "2.5": 289,
-              "3.5": 162,
-              "4.5": 104,
-              "5.5": 71
-            }
-          },
-          {
-            "thickness_mm": 120,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 501,
-              "3": 253,
-              "4": 158,
-              "5": 108,
-              "6": 77,
-              "1.5": 713,
-              "2.5": 341,
-              "3.5": 196,
-              "4.5": 129,
-              "5.5": 91
-            }
-          },
-          {
-            "thickness_mm": 140,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 536,
-              "3": 295,
-              "4": 188,
-              "5": 130,
-              "6": 95,
-              "1.5": 714,
-              "2.5": 393,
-              "3.5": 232,
-              "4.5": 155,
-              "5.5": 111
-            }
-          }
-        ]
-      },
-      "multiple_bay": {
-        "configuration": "Standard Panel",
-        "supported": true,
-        "static_characteristics": [
-          {
-            "thickness_mm": 30,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 451,
-              "3": 204,
-              "4": 111,
-              "5": 70,
-              "6": 48,
-              "1.5": 615,
-              "2.5": 299,
-              "3.5": 147,
-              "4.5": 87,
-              "5.5": 57
-            }
-          },
-          {
-            "thickness_mm": 40,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 471,
-              "3": 265,
-              "4": 144,
-              "5": 91,
-              "6": 62,
-              "1.5": 643,
-              "2.5": 371,
-              "3.5": 191,
-              "4.5": 113,
-              "5.5": 74
-            }
-          },
-          {
-            "thickness_mm": 50,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 492,
-              "3": 318,
-              "4": 178,
-              "5": 111,
-              "6": 76,
-              "1.5": 671,
-              "2.5": 386,
-              "3.5": 236,
-              "4.5": 139,
-              "5.5": 91
-            }
-          },
-          {
-            "thickness_mm": 60,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 512,
-              "3": 331,
-              "4": 212,
-              "5": 133,
-              "6": 91,
-              "1.5": 690,
-              "2.5": 402,
-              "3.5": 281,
-              "4.5": 165,
-              "5.5": 109
-            }
-          },
-          {
-            "thickness_mm": 80,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 546,
-              "3": 357,
-              "4": 262,
-              "5": 175,
-              "6": 120,
-              "1.5": 714,
-              "2.5": 435,
-              "3.5": 302,
-              "4.5": 219,
-              "5.5": 144
-            }
-          },
-          {
-            "thickness_mm": 100,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 557,
-              "3": 374,
-              "4": 274,
-              "5": 212,
-              "6": 149,
-              "1.5": 732,
-              "2.5": 455,
-              "3.5": 314,
-              "4.5": 241,
-              "5.5": 179
-            }
-          },
-          {
-            "thickness_mm": 120,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 558,
-              "3": 376,
-              "4": 275,
-              "5": 218,
-              "6": 175,
-              "1.5": 730,
-              "2.5": 456,
-              "3.5": 318,
-              "4.5": 245,
-              "5.5": 196
-            }
-          },
-          {
-            "thickness_mm": 140,
-            "weight_kg_per_m2": null,
-            "distance_between_supports_m": {
-              "2": 559,
-              "3": 378,
-              "4": 278,
-              "5": 220,
-              "6": 179,
-              "1.5": 728,
-              "2.5": 457,
-              "3.5": 320,
-              "4.5": 247,
-              "5.5": 198
-            }
-          }
-        ]
-      }
-    },
-    "certificate_type": "EPD, REI",
-    "manufacturing": {
-      "lead_time": 30,
-      "port_of_shipping": "GENOA",
-      "shipping_time": 30,
-      "maximum_qty_per_40ft_container": null,
-      "shipping_instructions": ""
-    },
-    "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films are available on request. The fixing is the most important element of GLOBEROOF SUN Allows to realize a ventilated roof without drilling metal insulated panels and maintaining appropriate mechanical characteristics of resistance to stress. Dryfix™™, (product name is inspired by its properties: fixing dry and safe) without holes can connect tiles, plates, solar thermal panels or photovoltaic modules. It does not need screws, bolts, rivets, self-drilling screws with rubber seals.",
-    "sample_questions": [],
-    "reviewed_by": "AI",
-    "status": "Failed",
-    "review_date": "2025-02-05T16:25:31.757Z"
-  },
-  {
-    "product_name": "Globewall Firestop HF",
+    "product_name": "GlobeWall Firestop HF",
     "description": "Pre-insulated metal panels with mineral fiber insulation for walls",
     "images": [
       "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102523-EX5jrecQLLblwMZfSaRPaYdn9zimiI.png",
@@ -3854,23 +4605,324 @@
       },
       "multiple_bay": null
     },
+    "weight_chart": [
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 11.9
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 12.6
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 14.1
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 15.6
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 17.1
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 19.4
+          },
+          {
+            "core_thickness_mm": 200,
+            "total_weight_kg_m2": 23.1
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 12.3
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 13.1
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 14.6
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 16.1
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 17.6
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 19.8
+          },
+          {
+            "core_thickness_mm": 200,
+            "total_weight_kg_m2": 23.6
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.6,
+        "weights": [
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 13.6
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 14.3
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 15.8
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 17.3
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 18.8
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 21.1
+          },
+          {
+            "core_thickness_mm": 200,
+            "total_weight_kg_m2": 24.8
+          }
+        ]
+      }
+    ],
     "certificate_type": "EPD, REI",
-    "manufacturing": {
+    "shipping": {
       "lead_time": 20,
       "port_of_shipping": "GENOA",
       "shipping_time": 30,
-      "maximum_qty_per_40ft_container": null,
+      "shipping_container_capacity": [],
       "shipping_instructions": ""
     },
     "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films and non-toxic coatings for occasional contact with food are available on request. Mineral wool panels, due to their characteristics, have a considerable mass, it is suggested to evaluate their dimensions in order to avoid problems related to excessive weight during the handling and assembly phases.",
     "sample_questions": [],
     "reviewed_by": "AI",
     "status": "Pending",
-    "review_date": "2025-02-03T14:21:34.967Z"
+    "review_date": "2025-02-11T12:57:22.531Z"
   },
   {
-    "product_name": "Globewall Freeze",
-    "description": "Insulated wall and ceiling panel for cold rooms and controlled atmosphere environments.",
+    "product_name": "GlobeWall Flat",
+    "description": "Globewall flat is a wall panel that can come with one side or both sides flat, to match customer's project of maximum hygiene and flatness requirements. ",
+    "images": [],
+    "core_types": {
+      "pur": {
+        "available": true,
+        "fire_rating": ""
+      },
+      "pir": {
+        "available": true,
+        "fire_rating": "B,s2-d0 ; B,s1-do"
+      },
+      "rockwool": {
+        "available": false,
+        "fire_rating": ""
+      }
+    },
+    "joint_type": "",
+    "panel_width_mm": null,
+    "thermals": [],
+    "sides": {
+      "external": {
+        "isFlat": true,
+        "isPerforated": false,
+        "materials": [
+          "Galvanized Steel",
+          "Stainless Steel 304",
+          "Stainless Steel 316",
+          "Aluminum"
+        ],
+        "thicknesses_mm": [
+          0.5,
+          0.6
+        ],
+        "ribs": {
+          "count": null,
+          "rib_type": "High",
+          "height_mm": null,
+          "spacing_mm": null,
+          "top_width_mm": null,
+          "bottom_width_mm": null
+        },
+        "colors": {
+          "standard": [
+            "Ral 9002",
+            "Ral 9010"
+          ],
+          "special": [
+            "Ral 9003"
+          ]
+        },
+        "coating": [
+          "Polystere",
+          "PVDF",
+          "PUR/PA",
+          "Plastisol"
+        ]
+      },
+      "internal": {
+        "isFlat": true,
+        "isPerforated": false,
+        "materials": [
+          "Galvanized Steel",
+          "Stainless Steel 304",
+          "Stainless Steel 316",
+          "Aluminum"
+        ],
+        "thicknesses_mm": [
+          0.5,
+          0.6
+        ],
+        "ribs": {
+          "count": null,
+          "rib_type": "High",
+          "height_mm": null,
+          "spacing_mm": null,
+          "top_width_mm": null,
+          "bottom_width_mm": null
+        },
+        "colors": {
+          "standard": [
+            "Ral 9002",
+            "Ral 9010"
+          ],
+          "special": [
+            "Ral 9003"
+          ]
+        },
+        "coating": [
+          "Polystere",
+          "PVDF",
+          "PUR/PA",
+          "Plastisol"
+        ]
+      }
+    },
+    "load_bearing_chart": {
+      "single_bay": {
+        "configuration": "Standard Panel",
+        "supported": false,
+        "static_characteristics": []
+      },
+      "multiple_bay": {
+        "configuration": "Standard Panel",
+        "supported": false,
+        "static_characteristics": []
+      }
+    },
+    "weight_chart": [],
+    "certificate_type": "",
+    "shipping": {
+      "lead_time": 20,
+      "port_of_shipping": "Genoa",
+      "shipping_time": 30,
+      "shipping_container_capacity": [
+        {
+          "thickness_mm": 25,
+          "length_mm": 11900,
+          "max_panels": 200,
+          "max_m2": 2380
+        },
+        {
+          "thickness_mm": 30,
+          "length_mm": 11900,
+          "max_panels": 160,
+          "max_m2": 1904
+        },
+        {
+          "thickness_mm": 40,
+          "length_mm": 11900,
+          "max_panels": 122,
+          "max_m2": 1452
+        },
+        {
+          "thickness_mm": 50,
+          "length_mm": 11900,
+          "max_panels": 100,
+          "max_m2": 1190
+        },
+        {
+          "thickness_mm": 60,
+          "length_mm": 11900,
+          "max_panels": 84,
+          "max_m2": 1000
+        },
+        {
+          "thickness_mm": 80,
+          "length_mm": 11900,
+          "max_panels": 62,
+          "max_m2": 714
+        },
+        {
+          "thickness_mm": 100,
+          "length_mm": 11900,
+          "max_panels": 50,
+          "max_m2": 595
+        },
+        {
+          "thickness_mm": 120,
+          "length_mm": 11900,
+          "max_panels": 42,
+          "max_m2": 500
+        },
+        {
+          "thickness_mm": 150,
+          "length_mm": 11900,
+          "max_panels": 32,
+          "max_m2": 381
+        },
+        {
+          "thickness_mm": 160,
+          "length_mm": 11900,
+          "max_panels": 30,
+          "max_m2": 357
+        },
+        {
+          "thickness_mm": 180,
+          "length_mm": 11900,
+          "max_panels": 26,
+          "max_m2": 309
+        },
+        {
+          "thickness_mm": 200,
+          "length_mm": 11900,
+          "max_panels": 24,
+          "max_m2": 286
+        }
+      ],
+      "shipping_instructions": "MODEL THICKNESS mm LENGHT mm # PANELS MAX m2\nGLOBEWALL 25 11900 200 2380\nGLOBEWALL 30 11900 160 1904\nGLOBEWALL 40 11900 122 1452\nGLOBEWALL 50 11900 100 1190\nGLOBEWALL 60 11900 84 1000\nGLOBEWALL 80 11900 62 714\nGLOBEWALL 100 11900 50 595\nGLOBEWALL 120 11900 42 500\nGLOBEWALL 150 11900 32 381\nGLOBEWALL 160 11900 30 357\nGLOBEWALL 180 11900 26 309\nGLOBEWALL 200 11900 24 286"
+    },
+    "additional_notes": "",
+    "sample_questions": [],
+    "reviewed_by": "AI",
+    "status": "Pending",
+    "review_date": "2025-02-19T10:08:52.191Z"
+  },
+  {
+    "product_name": "GlobeWall Freeze",
+    "description": "Insulated wall and ceiling panel for cold rooms and controlled atmosphere environments, with embedded EPDM gasket in the joint. ",
     "images": [
       "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102708-Z17F6t8XcRYgrPIr1WDSwJ1KOpR0h5.png",
       "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102735-j0Lwxb7DY1eDrUjmX8n0qJNdJRjmga.png"
@@ -3882,7 +4934,7 @@
       },
       "pir": {
         "available": true,
-        "fire_rating": "B-S2,D0"
+        "fire_rating": "B-s2,D0; B-s1,d0"
       },
       "rockwool": {
         "available": false,
@@ -3989,7 +5041,12 @@
             "RAL 9003"
           ]
         },
-        "coating": []
+        "coating": [
+          "Polystere",
+          "PVDF",
+          "PUR/PA",
+          "Plastisol"
+        ]
       }
     },
     "load_bearing_chart": {
@@ -4065,22 +5122,48 @@
       },
       "multiple_bay": null
     },
+    "weight_chart": [],
     "certificate_type": "EPD, EI 60/200",
-    "manufacturing": {
+    "shipping": {
       "lead_time": 30,
       "port_of_shipping": "GENOA",
       "shipping_time": 30,
-      "maximum_qty_per_40ft_container": null,
+      "shipping_container_capacity": [
+        {
+          "thickness_mm": 100,
+          "length_mm": 11900,
+          "max_panels": 50,
+          "max_m2": 595
+        },
+        {
+          "thickness_mm": 120,
+          "length_mm": 11900,
+          "max_panels": 42,
+          "max_m2": 500
+        },
+        {
+          "thickness_mm": 150,
+          "length_mm": 11900,
+          "max_panels": 32,
+          "max_m2": 381
+        },
+        {
+          "thickness_mm": 200,
+          "length_mm": 11900,
+          "max_panels": 24,
+          "max_m2": 286
+        }
+      ],
       "shipping_instructions": "MODEL THICKNESS mm LENGHT mm # PANELS MAX m2\nGLOBEWALL FREEZE 100 11900 50 595\nGLOBEWALL FREEZE 120 11900 42 500\nGLOBEWALL FREEZE 150 11900 32 381\nGLOBEWALL FREEZE 200 11900 24 286"
     },
     "additional_notes": "Panels with non-standard thicknesses are available upon request, subject to agreement on minimum quantities. Other films and non-toxic coatings for occasional contact with food are available on request.",
     "sample_questions": [],
     "reviewed_by": "AI",
     "status": "Pending",
-    "review_date": "2025-02-05T16:22:18.305Z"
+    "review_date": "2025-02-19T10:27:11.563Z"
   },
   {
-    "product_name": "Globewall HF",
+    "product_name": "GlobeWall HF",
     "description": "Insulated wall panel",
     "images": [
       "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102941-FkBgvXgf4dkLru6Wv18ReiGmYavett.png",
@@ -4533,22 +5616,257 @@
         ]
       }
     },
+    "weight_chart": [
+      {
+        "outer_steel_thickness": 0.4,
+        "inner_steel_thickness": 0.4,
+        "weights": [
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 7.8
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 8.1
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 8.5
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 9.3
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 10.1
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 10.9
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 11.7
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 12
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.4,
+        "weights": [
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 8.7
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 9.1
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 9.4
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 10.2
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 11
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 11.8
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 12.6
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 12.9
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 9.5
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 9.9
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 10.3
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 11.1
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 11.8
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 12.6
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 13.4
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 13.7
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 10.4
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 10.8
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 11.2
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 12
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 12.7
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 13.5
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 14.3
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 14.6
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.6,
+        "weights": [
+          {
+            "core_thickness_mm": 40,
+            "total_weight_kg_m2": 11.2
+          },
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 11.6
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 12
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 12.8
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 13.6
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 14.4
+          },
+          {
+            "core_thickness_mm": 140,
+            "total_weight_kg_m2": 15.1
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 15.4
+          }
+        ]
+      }
+    ],
     "certificate_type": "EPD",
-    "manufacturing": {
+    "shipping": {
       "lead_time": 20,
       "port_of_shipping": "GENOA",
       "shipping_time": 30,
-      "maximum_qty_per_40ft_container": null,
+      "shipping_container_capacity": [
+        {
+          "thickness_mm": 40,
+          "length_mm": 11900,
+          "max_panels": 122,
+          "max_m2": 1452
+        },
+        {
+          "thickness_mm": 50,
+          "length_mm": 11900,
+          "max_panels": 100,
+          "max_m2": 1190
+        },
+        {
+          "thickness_mm": 60,
+          "length_mm": 11900,
+          "max_panels": 84,
+          "max_m2": 1000
+        },
+        {
+          "thickness_mm": 80,
+          "length_mm": 11900,
+          "max_panels": 62,
+          "max_m2": 714
+        },
+        {
+          "thickness_mm": 100,
+          "length_mm": 11900,
+          "max_panels": 50,
+          "max_m2": 595
+        },
+        {
+          "thickness_mm": 120,
+          "length_mm": 11900,
+          "max_panels": 42,
+          "max_m2": 500
+        },
+        {
+          "thickness_mm": 150,
+          "length_mm": 11900,
+          "max_panels": 32,
+          "max_m2": 381
+        }
+      ],
       "shipping_instructions": "MODEL THICKNESS mm LENGHT mm # PANELS MAX m2\nGLOBEWALL STAR 40 11900 122 1452\nGLOBEWALL STAR 50 11900 100 1190\nGLOBEWALL STAR 60 11900 84 1000\nGLOBEWALL STAR 80 11900 62 714\nGLOBEWALL STAR 100 11900 50 595\nGLOBEWALL STAR 120 11900 42 500\nGLOBEWALL STAR 150 11900 32 381\n"
     },
     "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films and non-toxic coatings for occasional contact with food are available on request. Wall panels are designed to be laid vertically: the tongue-and-groove joint has been designed to ensure maximum thermal insulation and water tightness along all the joint lines between the panels. Horizontal installation, which differs from the recommended standard method, requires the design responsibility of a qualified professional, who will assess the feasibility conditions according to the specific conditions of the project (climate zone of the building, solar exposure for thermal expansion, type of the underlying structure and all the necessary parameters) proposing the most suitable technical solution for the intervention.",
     "sample_questions": [],
     "reviewed_by": "AI",
     "status": "Pending",
-    "review_date": "2025-02-05T16:24:49.790Z"
+    "review_date": "2025-02-11T12:57:43.380Z"
   },
   {
-    "product_name": "Globewall Noisestop",
+    "product_name": "GlobeWall Noisestop",
     "description": "Pre-insulated metal panels with mineral fiber insulation for walls (also available in micro perforated support).",
     "images": [
       "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102818-dn3N8I3w9AEZWhx57mLgzjj6OMs5kI.png",
@@ -4932,22 +6250,126 @@
         ]
       }
     },
+    "weight_chart": [
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 10
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 10.8
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 12.3
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 13.8
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 15.3
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 17.6
+          },
+          {
+            "core_thickness_mm": 200,
+            "total_weight_kg_m2": 21.3
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 10.8
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 11.6
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 13.1
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 14.6
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 16.1
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 18.3
+          },
+          {
+            "core_thickness_mm": 200,
+            "total_weight_kg_m2": 22.1
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.6,
+        "weights": [
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 11.4
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 12.1
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 13.7
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 15.2
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 16.7
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 18.9
+          },
+          {
+            "core_thickness_mm": 200,
+            "total_weight_kg_m2": 22.7
+          }
+        ]
+      }
+    ],
     "certificate_type": "EPD, EI 120",
-    "manufacturing": {
+    "shipping": {
       "lead_time": 20,
       "port_of_shipping": "GENOA",
       "shipping_time": 30,
-      "maximum_qty_per_40ft_container": null,
+      "shipping_container_capacity": [],
       "shipping_instructions": "MODEL\tTHICKNESS MM\tLENGHT MM\t# PANELS\tMAX M2\nGLOBEWALL NOISESTOP\t50\t11900\t90\t1071\nGLOBEWALL NOISESTOP\t60\t11900\t74\t880,6\nGLOBEWALL NOISESTOP\t80\t11900\t56\t666,4\nGLOBEWALL NOISESTOP\t100\t11900\t44\t523,6\nGLOBEWALL NOISESTOP\t120\t11900\t38\t452,2\nGLOBEWALL NOISESTOP\t150\t11900\t28\t333,2\nGLOBEWALL NOISESTOP\t200\t11900\t20\t238"
     },
     "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films and non-toxic coatings for occasional contact with food are available on request. Loading charts are calculated with standard mineral wool density.  Mineral wool panels, due to their characteristics, have a considerable mass, it is suggested to evaluate their dimensions in order to avoid problems related to excessive weight during the handling and assembly phases.",
     "sample_questions": [],
     "reviewed_by": "AI",
     "status": "Pending",
-    "review_date": "2025-02-03T09:28:58.324Z"
+    "review_date": "2025-02-11T12:57:59.138Z"
   },
   {
-    "product_name": "Globewall Noisestop HF",
+    "product_name": "GlobeWall Noisestop HF",
     "description": "Pre-insulated metal panels with mineral fiber insulation for walls (also available in micro perforated support).",
     "images": [
       "https://c6l20xg1fxogmgem.public.blob.vercel-storage.com/iScreen%20Shoter%20-%20Acrobat%20-%20250203102818-dn3N8I3w9AEZWhx57mLgzjj6OMs5kI.png",
@@ -5331,18 +6753,122 @@
         ]
       }
     },
+    "weight_chart": [
+      {
+        "outer_steel_thickness": 0.5,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 12.5
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 13.5
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 15.5
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 17.5
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 19.5
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 22.5
+          },
+          {
+            "core_thickness_mm": 200,
+            "total_weight_kg_m2": 27.5
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.5,
+        "weights": [
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 13.4
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 14.4
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 16.4
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 18.4
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 20.4
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 23.4
+          },
+          {
+            "core_thickness_mm": 200,
+            "total_weight_kg_m2": 28.4
+          }
+        ]
+      },
+      {
+        "outer_steel_thickness": 0.6,
+        "inner_steel_thickness": 0.6,
+        "weights": [
+          {
+            "core_thickness_mm": 50,
+            "total_weight_kg_m2": 14
+          },
+          {
+            "core_thickness_mm": 60,
+            "total_weight_kg_m2": 15
+          },
+          {
+            "core_thickness_mm": 80,
+            "total_weight_kg_m2": 17
+          },
+          {
+            "core_thickness_mm": 100,
+            "total_weight_kg_m2": 19
+          },
+          {
+            "core_thickness_mm": 120,
+            "total_weight_kg_m2": 21
+          },
+          {
+            "core_thickness_mm": 150,
+            "total_weight_kg_m2": 24
+          },
+          {
+            "core_thickness_mm": 200,
+            "total_weight_kg_m2": 29
+          }
+        ]
+      }
+    ],
     "certificate_type": "EPD, EI 120",
-    "manufacturing": {
+    "shipping": {
       "lead_time": 20,
       "port_of_shipping": "GENOA",
       "shipping_time": 30,
-      "maximum_qty_per_40ft_container": null,
+      "shipping_container_capacity": [],
       "shipping_instructions": "MODEL\tTHICKNESS MM\tLENGHT MM\t# PANELS\tMAX M2\nGLOBEWALL NOISESTOP\t50\t11900\t90\t1071\nGLOBEWALL NOISESTOP\t60\t11900\t74\t880,6\nGLOBEWALL NOISESTOP\t80\t11900\t56\t666,4\nGLOBEWALL NOISESTOP\t100\t11900\t44\t523,6\nGLOBEWALL NOISESTOP\t120\t11900\t38\t452,2\nGLOBEWALL NOISESTOP\t150\t11900\t28\t333,2\nGLOBEWALL NOISESTOP\t200\t11900\t20\t238"
     },
     "additional_notes": "Panels with non-standard thicknesses are available upon request with previous agreement on minimum quantities. Other films and non-toxic coatings for occasional contact with food are available on request. Loading charts are calculated with standard mineral wool density.  Mineral wool panels, due to their characteristics, have a considerable mass, it is suggested to evaluate their dimensions in order to avoid problems related to excessive weight during the handling and assembly phases.",
     "sample_questions": [],
     "reviewed_by": "AI",
     "status": "Pending",
-    "review_date": "2025-02-03T14:28:30.562Z"
+    "review_date": "2025-02-11T12:58:09.413Z"
   }
 ]

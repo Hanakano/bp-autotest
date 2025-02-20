@@ -35,8 +35,8 @@ async function retryWithBackoff<T>(
 		} catch (error) {
 			console.warn(`Attempt ${attempt} failed: ${error}`);
 		}
-		// Exponentially increasing backoff, 3s, 9s, 27s, total of 33 sec
-		await new Promise((res) => setTimeout(res, Math.pow(3, attempt) * 1000));
+		// Exponentially increasing backoff, 3s, 12s, 39s, total of 54 sec
+		await new Promise((res) => setTimeout(res, Math.pow(3.4, attempt) * 1000));
 	}
 	console.warn("Max retries reached. Returning undefined.");
 	return undefined;
