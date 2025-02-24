@@ -21,6 +21,7 @@
           
           # Use nix-shell-based environment variable setting
           NODE_ENV = "development";
+          WEBHOOK_ID="42536745-17d0-4cd6-a6e2-450d8c18c2a9";
           shellHook = ''
             bun install
             '';

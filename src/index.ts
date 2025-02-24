@@ -102,7 +102,8 @@ export default async function main() {
 		headers: { accept: "application/json", "content-type": "application/json" },
 	});
 	const limiter = new Bottleneck({ minTime: 200, maxConcurrent: 3 });
-	const webhook_id = "42536745-17d0-4cd6-a6e2-450d8c18c2a9";
+	const webhook_id = process.env.WEBHOOK_ID;
+	if (!webhook_id) return
 	const sample_questions_filepath = "data/test_questions.jsonl";
 	const output_filepath = "data/batch_data.jsonl";
 
